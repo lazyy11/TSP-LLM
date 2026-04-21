@@ -1,0 +1,12 @@
+2025/10/02 12:06:44 - WARNING - __main__ - Process rank: 0, device: cuda:0, n_gpu: 1, distributed training: True, 16-bits training: False
+2025/10/02 12:06:45 - WARNING - datasets.builder - Using custom data configuration default-1f9ec02d23f07625
+2025/10/02 12:06:45 - WARNING - datasets.builder - Reusing dataset json (/home/leizy/.cache/huggingface/datasets/json/default-1f9ec02d23f07625/0.0.0/ac0ca5f5289a6cf108e706efcf040422dbbfa8e658dee6a819f20d76bb84d26b)
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:08<00:08,  8.26s/it]100%|██████████| 2/2 [00:09<00:00,  4.10s/it]100%|██████████| 2/2 [00:09<00:00,  4.73s/it]
+/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/transformers/models/auto/configuration_auto.py:1002: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/transformers/models/auto/tokenization_auto.py:809: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+2025/10/02 12:06:56 - WARNING - datasets.fingerprint - Parameter 'function'=<function main.<locals>.preprocess_function at 0x7e5e78799990> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
+2025/10/02 12:06:56 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /home/leizy/.cache/huggingface/datasets/json/default-1f9ec02d23f07625/0.0.0/ac0ca5f5289a6cf108e706efcf040422dbbfa8e658dee6a819f20d76bb84d26b/cache-f945e4b665c1d4b4.arrow

@@ -1,0 +1,7 @@
+timestamp: 20251006_071601
+script: TH_5_steps_train.sh
+train_file: /home/leizy/24sum/CFRL/data/train_together_datasets/with_prompt/5_steps/jsonl_data/train.json
+validation_file: /home/leizy/24sum/CFRL/data/train_together_datasets/with_prompt/5_steps/jsonl_data/val.json
+output_dir: /home/leizy/24sum/CFRL/src/main_model/trained_model/with_prompt/trained_together/T5_5_steps
+cuda_visible_devices: 0,1
+exit_code: 0

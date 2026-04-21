@@ -1,0 +1,13 @@
+{
+  "column_name": "cloud-cover_land-wtd",
+  "total_samples": 75365,
+  "valid_samples": 75365,
+  "missing_rate": 0.0,
+  "metrics": {
+    "rmse": 0.014913698082620849,
+    "mae": 0.010337742984143835,
+    "r2": 0.994608371111372,
+    "mape": 2.011776388528369,
+    "smape": 2.007014301774607
+  }
+}

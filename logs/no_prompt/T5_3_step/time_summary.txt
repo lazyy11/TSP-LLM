@@ -1,0 +1,20 @@
+Training Time Summary for no_prompt T5_3_step
+====================================================
+Successful models: 16
+
+Training time:
+  Total: 309923 seconds
+  Formatted: 86h 5m 23s
+
+Testing time:
+  Total: 20240 seconds
+  Formatted: 5h 37m 20s
+
+Total time:
+  Total: 330163 seconds
+  Formatted: 91h 42m 43s
+
+Average time per model:
+  Training: 19370 seconds
+  Testing: 1265 seconds
+  Total: 20635 seconds

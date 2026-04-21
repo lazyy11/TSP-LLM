@@ -1,0 +1,13 @@
+{
+  "column_name": "air-density_pop-wtd",
+  "total_samples": 75363,
+  "valid_samples": 75363,
+  "missing_rate": 0.0,
+  "metrics": {
+    "rmse": 0.0028510792475196947,
+    "mae": 0.000658010783364073,
+    "r2": 0.9596914525857148,
+    "mape": 0.057534950657393474,
+    "smape": 0.05733101028035551
+  }
+}

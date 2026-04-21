@@ -1,0 +1,13 @@
+{
+  "column_name": "humidity_land-wtd",
+  "total_samples": 75361,
+  "valid_samples": 75361,
+  "missing_rate": 0.0,
+  "metrics": {
+    "rmse": 0.0005165767653675383,
+    "mae": 0.00025484534440891183,
+    "r2": 0.9663342594856674,
+    "mape": 1.688458618861569,
+    "smape": 1.6864527104893734
+  }
+}

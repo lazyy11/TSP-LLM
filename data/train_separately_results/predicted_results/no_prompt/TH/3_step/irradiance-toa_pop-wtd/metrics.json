@@ -1,0 +1,13 @@
+{
+  "column_name": "irradiance-toa_pop-wtd",
+  "total_samples": 75363,
+  "valid_samples": 75361,
+  "missing_rate": 0.002653822167376564,
+  "metrics": {
+    "rmse": 0.0711155938770432,
+    "mae": 0.029051202434503733,
+    "r2": 0.9999999786964558,
+    "mape": 44231.56535504203,
+    "smape": NaN
+  }
+}

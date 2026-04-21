@@ -1,0 +1,6 @@
+Results for irradiance-surface_pop-wtd:
+MAE: 4.629350255423605
+RMSE: 9.181637835685471
+SMAPE: 90.66415847194817%
+R^2: 0.9988046123982054
+missing_rate: 0.0%

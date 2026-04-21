@@ -1,0 +1,6 @@
+Results for precipitation_land-wtd:
+MAE: 0.04337575138334153
+RMSE: 0.08960144252711105
+SMAPE: 39.7332208471066%
+R^2: 0.841146365826581
+missing_rate: 0.0%

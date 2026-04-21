@@ -1,0 +1,45 @@
+2025/10/02 00:28:39 - WARNING - __main__ - Process rank: 0, device: cuda:0, n_gpu: 4, distributed training: True, 16-bits training: False
+2025/10/02 00:28:53 - WARNING - datasets.builder - Using custom data configuration default-1f9ec02d23f07625
+2025/10/02 00:28:53 - WARNING - datasets.builder - Reusing dataset json (/home/leizy/.cache/huggingface/datasets/json/default-1f9ec02d23f07625/0.0.0/ac0ca5f5289a6cf108e706efcf040422dbbfa8e658dee6a819f20d76bb84d26b)
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  9.94it/s]100%|██████████| 2/2 [00:00<00:00, 17.69it/s]
+/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/transformers/models/auto/configuration_auto.py:1002: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/transformers/models/auto/tokenization_auto.py:809: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+2025/10/02 00:28:53 - WARNING - datasets.fingerprint - Parameter 'function'=<function main.<locals>.preprocess_function at 0x7a0ef9395ab0> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
+2025/10/02 00:28:53 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /home/leizy/.cache/huggingface/datasets/json/default-1f9ec02d23f07625/0.0.0/ac0ca5f5289a6cf108e706efcf040422dbbfa8e658dee6a819f20d76bb84d26b/cache-f945e4b665c1d4b4.arrow
+/home/leizy/24sum/CFRL/src/main_model/run/train.py:589: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Seq2SeqTrainer.__init__`. Use `processing_class` instead.
+  trainer = Seq2SeqTrainer(
+Traceback (most recent call last):
+  File "/home/leizy/24sum/CFRL/src/main_model/run/train.py", line 668, in <module>
+    main()
+  File "/home/leizy/24sum/CFRL/src/main_model/run/train.py", line 589, in main
+    trainer = Seq2SeqTrainer(
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/transformers/utils/deprecation.py", line 165, in wrapped_func
+    return func(*args, **kwargs)
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/transformers/trainer_seq2seq.py", line 72, in __init__
+    super().__init__(
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/transformers/utils/deprecation.py", line 165, in wrapped_func
+    return func(*args, **kwargs)
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/transformers/trainer.py", line 574, in __init__
+    self._move_model_to_device(model, args.device)
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/transformers/trainer.py", line 846, in _move_model_to_device
+    model = model.to(device)
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/transformers/modeling_utils.py", line 3157, in to
+    return super().to(*args, **kwargs)
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1160, in to
+    return self._apply(convert)
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/torch/nn/modules/module.py", line 810, in _apply
+    module._apply(fn)
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/torch/nn/modules/module.py", line 810, in _apply
+    module._apply(fn)
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/torch/nn/modules/module.py", line 810, in _apply
+    module._apply(fn)
+  [Previous line repeated 4 more times]
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/torch/nn/modules/module.py", line 833, in _apply
+    param_applied = fn(param)
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1158, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB. GPU 0 has a total capacty of 23.57 GiB of which 19.69 MiB is free. Process 1974261 has 23.20 GiB memory in use. Including non-PyTorch memory, this process has 350.00 MiB memory in use. Of the allocated memory 94.04 MiB is allocated by PyTorch, and 1.96 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

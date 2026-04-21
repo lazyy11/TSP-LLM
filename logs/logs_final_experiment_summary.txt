@@ -1,0 +1,25 @@
+Final Experiment Summary
+=======================
+Completed at: Tue Aug 12 03:31:44 AM CST 2025
+
+Experiments Completed:
+- with_prompt 1-step: ✓
+- with_prompt 3-step: ✓
+- with_prompt 5-step: ✓
+- no_prompt 1-step: ✓
+- no_prompt 3-step: ✓
+- no_prompt 5-step: ✓
+
+Results Location:
+- Models: /home/leizy/24sum/CFRL/src/main_model/trained_model/
+- Predictions: /home/leizy/24sum/CFRL/data/predicted_results/
+- Logs: /home/leizy/24sum/CFRL/logs/
+- Time summaries: /home/leizy/24sum/CFRL/logs/*/overall_time_summary.txt
+
+Individual Step Summaries:
+- with_prompt: /home/leizy/24sum/CFRL/logs/with_prompt/T5_*_step/time_summary.txt
+- no_prompt: /home/leizy/24sum/CFRL/logs/no_prompt/T5_*_step/time_summary.txt
+
+Evaluation Results:
+- with_prompt: /home/leizy/24sum/CFRL/logs/with_prompt/T5_*_step/summary.json
+- no_prompt: /home/leizy/24sum/CFRL/logs/no_prompt/T5_*_step/summary.json

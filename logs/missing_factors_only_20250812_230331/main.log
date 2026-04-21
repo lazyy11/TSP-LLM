@@ -1,0 +1,103 @@
+[2025-08-12 23:03:31] === 开始只补跑缺失气候因子 ===
+[2025-08-12 23:03:31] 日志目录: /home/leizy/24sum/CFRL/logs/missing_factors_only_20250812_230331
+[2025-08-12 23:03:31] 缺失因子数量: 6
+[2025-08-12 23:03:31] 缺失因子列表: humidity_land-wtd irradiance-surface_land-wtd irradiance-toa_land-wtd precipitation_land-wtd temperature_land-wtd wind-speed_land-wtd
+[2025-08-12 23:03:31] === 开始处理 with_prompt 1_step ===
+[2025-08-12 23:03:31] with_prompt 1_step 缺失因子: humidity_land-wtd irradiance-surface_land-wtd irradiance-toa_land-wtd precipitation_land-wtd temperature_land-wtd wind-speed_land-wtd
+[2025-08-12 23:03:31] 复制因子数据: humidity_land-wtd
+[2025-08-12 23:03:31] 复制因子数据: irradiance-surface_land-wtd
+[2025-08-12 23:03:31] 复制因子数据: irradiance-toa_land-wtd
+[2025-08-12 23:03:31] 复制因子数据: precipitation_land-wtd
+[2025-08-12 23:03:31] 复制因子数据: temperature_land-wtd
+[2025-08-12 23:03:32] 复制因子数据: wind-speed_land-wtd
+[2025-08-12 23:03:32] 备份原始数据目录: /home/leizy/24sum/CFRL/logs/missing_factors_only_20250812_230331/backup_with_prompt_1_step
+[2025-08-12 23:03:32] 运行训练脚本，日志: /home/leizy/24sum/CFRL/logs/missing_factors_only_20250812_230331/with_prompt_1_step.log
+[2025-08-13 13:20:49] with_prompt 1_step 完成
+[2025-08-13 13:20:49] 恢复原始数据目录
+[2025-08-13 13:21:19] === 开始处理 with_prompt 3_step ===
+[2025-08-13 13:21:19] with_prompt 3_step 缺失因子: humidity_land-wtd irradiance-surface_land-wtd irradiance-toa_land-wtd precipitation_land-wtd temperature_land-wtd wind-speed_land-wtd
+[2025-08-13 13:21:19] 复制因子数据: humidity_land-wtd
+[2025-08-13 13:21:19] 复制因子数据: irradiance-surface_land-wtd
+[2025-08-13 13:21:19] 复制因子数据: irradiance-toa_land-wtd
+[2025-08-13 13:21:19] 复制因子数据: precipitation_land-wtd
+[2025-08-13 13:21:19] 复制因子数据: temperature_land-wtd
+[2025-08-13 13:21:19] 复制因子数据: wind-speed_land-wtd
+[2025-08-13 13:21:19] 备份原始数据目录: /home/leizy/24sum/CFRL/logs/missing_factors_only_20250812_230331/backup_with_prompt_3_step
+[2025-08-13 13:21:19] 运行训练脚本，日志: /home/leizy/24sum/CFRL/logs/missing_factors_only_20250812_230331/with_prompt_3_step.log
+[2025-08-14 06:19:20] with_prompt 3_step 完成
+[2025-08-14 06:19:20] 恢复原始数据目录
+[2025-08-14 06:19:50] === 开始处理 with_prompt 5_step ===
+[2025-08-14 06:19:50] with_prompt 5_step 缺失因子: humidity_land-wtd irradiance-surface_land-wtd irradiance-toa_land-wtd precipitation_land-wtd temperature_land-wtd wind-speed_land-wtd
+[2025-08-14 06:19:50] 复制因子数据: humidity_land-wtd
+[2025-08-14 06:19:50] 复制因子数据: irradiance-surface_land-wtd
+[2025-08-14 06:19:50] 复制因子数据: irradiance-toa_land-wtd
+[2025-08-14 06:19:50] 复制因子数据: precipitation_land-wtd
+[2025-08-14 06:19:50] 复制因子数据: temperature_land-wtd
+[2025-08-14 06:19:50] 复制因子数据: wind-speed_land-wtd
+[2025-08-14 06:19:50] 备份原始数据目录: /home/leizy/24sum/CFRL/logs/missing_factors_only_20250812_230331/backup_with_prompt_5_step
+[2025-08-14 06:19:50] 运行训练脚本，日志: /home/leizy/24sum/CFRL/logs/missing_factors_only_20250812_230331/with_prompt_5_step.log
+[2025-08-15 02:02:17] with_prompt 5_step 完成
+[2025-08-15 02:02:17] 恢复原始数据目录
+[2025-08-15 02:02:47] === 开始处理 no_prompt 1_step ===
+[2025-08-15 02:02:47] no_prompt 1_step 缺失因子: humidity_land-wtd irradiance-surface_land-wtd irradiance-toa_land-wtd precipitation_land-wtd temperature_land-wtd wind-speed_land-wtd
+[2025-08-15 02:02:47] 复制因子数据: humidity_land-wtd
+[2025-08-15 02:02:47] 复制因子数据: irradiance-surface_land-wtd
+[2025-08-15 02:02:47] 复制因子数据: irradiance-toa_land-wtd
+[2025-08-15 02:02:47] 复制因子数据: precipitation_land-wtd
+[2025-08-15 02:02:47] 复制因子数据: temperature_land-wtd
+[2025-08-15 02:02:47] 复制因子数据: wind-speed_land-wtd
+[2025-08-15 02:02:47] 备份原始数据目录: /home/leizy/24sum/CFRL/logs/missing_factors_only_20250812_230331/backup_no_prompt_1_step
+[2025-08-15 02:02:47] 运行训练脚本，日志: /home/leizy/24sum/CFRL/logs/missing_factors_only_20250812_230331/no_prompt_1_step.log
+[2025-08-15 12:26:49] no_prompt 1_step 完成
+[2025-08-15 12:26:49] 恢复原始数据目录
+[2025-08-15 12:27:19] === 开始处理 no_prompt 3_step ===
+[2025-08-15 12:27:19] no_prompt 3_step 缺失因子: humidity_land-wtd irradiance-surface_land-wtd irradiance-toa_land-wtd precipitation_land-wtd temperature_land-wtd wind-speed_land-wtd
+[2025-08-15 12:27:20] 复制因子数据: humidity_land-wtd
+[2025-08-15 12:27:20] 复制因子数据: irradiance-surface_land-wtd
+[2025-08-15 12:27:20] 复制因子数据: irradiance-toa_land-wtd
+[2025-08-15 12:27:20] 复制因子数据: precipitation_land-wtd
+[2025-08-15 12:27:20] 复制因子数据: temperature_land-wtd
+[2025-08-15 12:27:20] 复制因子数据: wind-speed_land-wtd
+[2025-08-15 12:27:20] 备份原始数据目录: /home/leizy/24sum/CFRL/logs/missing_factors_only_20250812_230331/backup_no_prompt_3_step
+[2025-08-15 12:27:20] 运行训练脚本，日志: /home/leizy/24sum/CFRL/logs/missing_factors_only_20250812_230331/no_prompt_3_step.log
+[2025-08-15 23:45:35] no_prompt 3_step 完成
+[2025-08-15 23:45:35] 恢复原始数据目录
+[2025-08-15 23:46:05] === 开始处理 no_prompt 5_step ===
+[2025-08-15 23:46:05] no_prompt 5_step 缺失因子: humidity_land-wtd irradiance-surface_land-wtd irradiance-toa_land-wtd temperature_land-wtd wind-speed_land-wtd
+[2025-08-15 23:46:05] 复制因子数据: humidity_land-wtd
+[2025-08-15 23:46:05] 复制因子数据: irradiance-surface_land-wtd
+[2025-08-15 23:46:05] 复制因子数据: irradiance-toa_land-wtd
+[2025-08-15 23:46:05] 复制因子数据: temperature_land-wtd
+[2025-08-15 23:46:05] 复制因子数据: wind-speed_land-wtd
+[2025-08-15 23:46:05] 备份原始数据目录: /home/leizy/24sum/CFRL/logs/missing_factors_only_20250812_230331/backup_no_prompt_5_step
+[2025-08-15 23:46:05] 运行训练脚本，日志: /home/leizy/24sum/CFRL/logs/missing_factors_only_20250812_230331/no_prompt_5_step.log
+[2025-08-16 06:12:31] no_prompt 5_step 完成
+[2025-08-16 06:12:31] 恢复原始数据目录
+[2025-08-16 06:13:01] === 生成最终汇总 ===
+[2025-08-16 06:13:01] 生成 with_prompt 1_step 汇总
+[2025-08-16 06:13:02] with_prompt 1_step JSON汇总完成
+[2025-08-16 06:13:02] with_prompt 1_step CSV汇总完成
+[2025-08-16 06:13:02] 生成 with_prompt 3_step 汇总
+[2025-08-16 06:13:03] with_prompt 3_step JSON汇总完成
+[2025-08-16 06:13:03] with_prompt 3_step CSV汇总完成
+[2025-08-16 06:13:03] 生成 with_prompt 5_step 汇总
+[2025-08-16 06:13:04] with_prompt 5_step JSON汇总完成
+[2025-08-16 06:13:04] with_prompt 5_step CSV汇总完成
+[2025-08-16 06:13:04] 生成 no_prompt 1_step 汇总
+[2025-08-16 06:13:04] no_prompt 1_step JSON汇总完成
+[2025-08-16 06:13:04] no_prompt 1_step CSV汇总完成
+[2025-08-16 06:13:04] 生成 no_prompt 3_step 汇总
+[2025-08-16 06:13:05] no_prompt 3_step JSON汇总完成
+[2025-08-16 06:13:05] no_prompt 3_step CSV汇总完成
+[2025-08-16 06:13:05] 生成 no_prompt 5_step 汇总
+[2025-08-16 06:13:06] no_prompt 5_step JSON汇总完成
+[2025-08-16 06:13:06] no_prompt 5_step CSV汇总完成
+[2025-08-16 06:13:06] === 计算总时间 ===
+[2025-08-16 06:13:06] with_prompt 总时间计算完成
+[2025-08-16 06:13:07] no_prompt 总时间计算完成
+[2025-08-16 06:13:07] === 最终检查 ===
+[2025-08-16 06:13:07] === 补跑完成 ===
+[2025-08-16 06:13:07] 所有日志保存在: /home/leizy/24sum/CFRL/logs/missing_factors_only_20250812_230331
+[2025-08-16 06:13:07] 主日志: /home/leizy/24sum/CFRL/logs/missing_factors_only_20250812_230331/main.log
+[2025-08-16 06:13:07] 错误日志: /home/leizy/24sum/CFRL/logs/missing_factors_only_20250812_230331/errors.log
+[2025-08-16 06:13:07] 最终检查: /home/leizy/24sum/CFRL/logs/missing_factors_only_20250812_230331/final_check.log

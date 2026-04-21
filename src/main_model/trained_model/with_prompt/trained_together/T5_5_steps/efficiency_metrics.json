@@ -1,0 +1,33 @@
+{
+  "summary": {
+    "train_runtime_seconds": 132133.1367,
+    "train_runtime_hours": 36.703649,
+    "n_gpu": 2,
+    "gpu_hours": 73.407298,
+    "epoch_count": 3,
+    "max_peak_memory_mb": 8155.14
+  },
+  "epochs": [
+    {
+      "epoch": 1,
+      "epoch_runtime_seconds": 44022.12,
+      "epoch_runtime_hours": 12.228366,
+      "peak_memory_mb": 8155.14,
+      "global_step": 131916
+    },
+    {
+      "epoch": 2,
+      "epoch_runtime_seconds": 44030.49,
+      "epoch_runtime_hours": 12.230691,
+      "peak_memory_mb": 8136.5,
+      "global_step": 263832
+    },
+    {
+      "epoch": 3,
+      "epoch_runtime_seconds": 44080.53,
+      "epoch_runtime_hours": 12.244591,
+      "peak_memory_mb": 8155.14,
+      "global_step": 395748
+    }
+  ]
+}

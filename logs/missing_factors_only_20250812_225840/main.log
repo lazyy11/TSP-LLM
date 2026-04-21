@@ -1,0 +1,13 @@
+[2025-08-12 22:58:40] === 开始只补跑缺失气候因子 ===
+[2025-08-12 22:58:40] 日志目录: /home/leizy/24sum/CFRL/logs/missing_factors_only_20250812_225840
+[2025-08-12 22:58:40] 缺失因子数量: 6
+[2025-08-12 22:58:40] 缺失因子列表: humidity_land-wtd irradiance-surface_land-wtd irradiance-toa_land-wtd precipitation_land-wtd temperature_land-wtd wind-speed_land-wtd
+[2025-08-12 22:58:40] === 开始处理 with_prompt 1_step ===
+[2025-08-12 22:58:40] with_prompt 1_step 缺失因子: humidity_land-wtd irradiance-surface_land-wtd irradiance-toa_land-wtd precipitation_land-wtd temperature_land-wtd wind-speed_land-wtd
+[2025-08-12 22:58:40] 复制因子 humidity_land-wtd 到临时目录
+[2025-08-12 22:58:40] 复制因子 irradiance-surface_land-wtd 到临时目录
+[2025-08-12 22:58:40] 复制因子 irradiance-toa_land-wtd 到临时目录
+[2025-08-12 22:58:40] 复制因子 precipitation_land-wtd 到临时目录
+[2025-08-12 22:58:40] 复制因子 temperature_land-wtd 到临时目录
+[2025-08-12 22:58:40] 复制因子 wind-speed_land-wtd 到临时目录
+[2025-08-12 22:58:40] 运行训练脚本，日志: /home/leizy/24sum/CFRL/logs/missing_factors_only_20250812_225840/with_prompt_1_step.log

@@ -1,0 +1,6 @@
+Results for irradiance-toa_land-wtd:
+MAE: 0.031184794483588265
+RMSE: 0.283503393882414
+SMAPE: 86.16463127143385%
+R^2: 0.9999996586999873
+missing_rate: 0.0%

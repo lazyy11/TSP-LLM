@@ -1,0 +1,13 @@
+{
+  "column_name": "wind-speed_pop-wtd",
+  "total_samples": 75363,
+  "valid_samples": 75363,
+  "missing_rate": 0.0,
+  "metrics": {
+    "rmse": 0.14012945065438723,
+    "mae": 0.09228711702028847,
+    "r2": 0.9623253805647325,
+    "mape": 5.178844756591052,
+    "smape": 5.184038474281947
+  }
+}

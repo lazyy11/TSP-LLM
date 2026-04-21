@@ -1,0 +1,18 @@
+=== with_prompt 1_step 最终状态 ===
+完成: 5 | 仍缺失: 1
+仍缺失的因子: temperature_land-wtd
+=== with_prompt 3_step 最终状态 ===
+完成: 5 | 仍缺失: 1
+仍缺失的因子: temperature_land-wtd
+=== with_prompt 5_step 最终状态 ===
+完成: 5 | 仍缺失: 1
+仍缺失的因子: temperature_land-wtd
+=== no_prompt 1_step 最终状态 ===
+完成: 5 | 仍缺失: 1
+仍缺失的因子: temperature_land-wtd
+=== no_prompt 3_step 最终状态 ===
+完成: 5 | 仍缺失: 1
+仍缺失的因子: temperature_land-wtd
+=== no_prompt 5_step 最终状态 ===
+完成: 5 | 仍缺失: 1
+仍缺失的因子: wind-speed_land-wtd

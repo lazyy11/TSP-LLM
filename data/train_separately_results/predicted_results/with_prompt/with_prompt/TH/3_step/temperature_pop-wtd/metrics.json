@@ -1,0 +1,13 @@
+{
+  "column_name": "temperature_pop-wtd",
+  "total_samples": 75363,
+  "valid_samples": 75363,
+  "missing_rate": 0.0,
+  "metrics": {
+    "rmse": 0.23612329612818653,
+    "mae": 0.13183719243306843,
+    "r2": 0.995735554063555,
+    "mape": 0.4880752778236118,
+    "smape": 0.4877188846074004
+  }
+}

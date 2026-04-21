@@ -1,0 +1,13 @@
+{
+  "column_name": "temperature_land-wtd",
+  "total_samples": 75363,
+  "valid_samples": 75363,
+  "missing_rate": 0.0,
+  "metrics": {
+    "rmse": 0.24088393981877307,
+    "mae": 0.13240523864495837,
+    "r2": 0.9961960950112272,
+    "mape": 0.5141633815025561,
+    "smape": 0.5131679424418099
+  }
+}

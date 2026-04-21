@@ -1,0 +1,13 @@
+{
+  "column_name": "precipitation_pop-wtd",
+  "total_samples": 75365,
+  "valid_samples": 75365,
+  "missing_rate": 0.0,
+  "metrics": {
+    "rmse": 0.05560139052943258,
+    "mae": 0.019246361042924435,
+    "r2": 0.946711058738385,
+    "mape": 4046985.0491890092,
+    "smape": NaN
+  }
+}

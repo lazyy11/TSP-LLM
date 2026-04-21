@@ -1,0 +1,2 @@
+Total time: 10 seconds
+Training time: 6 seconds

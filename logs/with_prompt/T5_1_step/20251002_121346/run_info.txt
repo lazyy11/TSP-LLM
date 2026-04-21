@@ -1,0 +1,6 @@
+timestamp: 20251002_121346
+script: TH_1_step_train.sh
+train_file: /home/leizy/24sum/CFRL/data/train_together_datasets/with_prompt/1_step/jsonl_data/train.json
+validation_file: /home/leizy/24sum/CFRL/data/train_together_datasets/with_prompt/1_step/jsonl_data/val.json
+output_dir: /home/leizy/24sum/CFRL/src/main_model/trained_model/with_prompt/trained_together/T5_1_step
+cuda_visible_devices: 1

@@ -1,0 +1,13 @@
+{
+  "column_name": "cloud-cover_pop-wtd",
+  "total_samples": 75363,
+  "valid_samples": 75363,
+  "missing_rate": 0.0,
+  "metrics": {
+    "rmse": 0.052325649954136653,
+    "mae": 0.03171385162480262,
+    "r2": 0.9320669363891186,
+    "mape": 6.085425073340883,
+    "smape": 5.957614814158151
+  }
+}

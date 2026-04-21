@@ -1,0 +1,20 @@
+Training Time Summary for with_prompt T5_1_step
+====================================================
+Successful models: 10
+
+Training time:
+  Total: 254445 seconds
+  Formatted: 70h 40m 45s
+
+Testing time:
+  Total: 9734 seconds
+  Formatted: 2h 42m 14s
+
+Total time:
+  Total: 264179 seconds
+  Formatted: 73h 22m 59s
+
+Average time per model:
+  Training: 25444 seconds
+  Testing: 973 seconds
+  Total: 26417 seconds

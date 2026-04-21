@@ -1,0 +1,205 @@
+[Tue Aug 12 10:28:35 PM CST 2025] Processing column: humidity_land-wtd
+[Tue Aug 12 10:28:35 PM CST 2025] Assigning GPU 0 to humidity_land-wtd
+[Tue Aug 12 10:28:35 PM CST 2025] Starting training for humidity_land-wtd on GPU 0
+[Tue Aug 12 10:28:35 PM CST 2025] Training model for humidity_land-wtd...
+2025/08/12 22:28:39 - WARNING - __main__ - Process rank: 0, device: cuda:0, n_gpu: 1, distributed training: True, 16-bits training: False
+2025/08/12 22:28:40 - WARNING - datasets.builder - Using custom data configuration default-06f11abf41f3c61d
+Downloading and preparing dataset json/default to /home/leizy/.cache/huggingface/datasets/json/default-06f11abf41f3c61d/0.0.0/ac0ca5f5289a6cf108e706efcf040422dbbfa8e658dee6a819f20d76bb84d26b...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 3830.41it/s]
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 680.56it/s]
+[Tue Aug 12 10:28:40 PM CST 2025] Processing column: irradiance-surface_land-wtd
+[Tue Aug 12 10:28:40 PM CST 2025] Assigning GPU 1 to irradiance-surface_land-wtd
+[Tue Aug 12 10:28:40 PM CST 2025] Starting training for irradiance-surface_land-wtd on GPU 1
+[Tue Aug 12 10:28:40 PM CST 2025] Training model for irradiance-surface_land-wtd...
+Dataset json downloaded and prepared to /home/leizy/.cache/huggingface/datasets/json/default-06f11abf41f3c61d/0.0.0/ac0ca5f5289a6cf108e706efcf040422dbbfa8e658dee6a819f20d76bb84d26b. Subsequent calls will reuse this data.
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 295.80it/s]
+/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/transformers/models/auto/configuration_auto.py:1002: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+Traceback (most recent call last):
+  File "/home/leizy/24sum/CFRL/src/main_model/run/train.py", line 528, in <module>
+    main()
+  File "/home/leizy/24sum/CFRL/src/main_model/run/train.py", line 264, in main
+    config = AutoConfig.from_pretrained(
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/transformers/models/auto/configuration_auto.py", line 1049, in from_pretrained
+    raise ValueError(
+ValueError: Unrecognized model in /home/leizy/24sum/CFRL/src/main_model/T5-base. Should have a `model_type` key in its config.json, or contain one of the following strings in its name: albert, align, altclip, audio-spectrogram-transformer, autoformer, bark, bart, beit, bert, bert-generation, big_bird, bigbird_pegasus, biogpt, bit, blenderbot, blenderbot-small, blip, blip-2, bloom, bridgetower, bros, camembert, canine, chameleon, chinese_clip, chinese_clip_vision_model, clap, clip, clip_text_model, clip_vision_model, clipseg, clvp, code_llama, codegen, cohere, conditional_detr, convbert, convnext, convnextv2, cpmant, ctrl, cvt, dac, data2vec-audio, data2vec-text, data2vec-vision, dbrx, deberta, deberta-v2, decision_transformer, deformable_detr, deit, depth_anything, deta, detr, dinat, dinov2, distilbert, donut-swin, dpr, dpt, efficientformer, efficientnet, electra, encodec, encoder-decoder, ernie, ernie_m, esm, falcon, falcon_mamba, fastspeech2_conformer, flaubert, flava, fnet, focalnet, fsmt, funnel, fuyu, gemma, gemma2, git, glm, glpn, gpt-sw3, gpt2, gpt_bigcode, gpt_neo, gpt_neox, gpt_neox_japanese, gptj, gptsan-japanese, granite, granitemoe, graphormer, grounding-dino, groupvit, hiera, hubert, ibert, idefics, idefics2, idefics3, imagegpt, informer, instructblip, instructblipvideo, jamba, jetmoe, jukebox, kosmos-2, layoutlm, layoutlmv2, layoutlmv3, led, levit, lilt, llama, llava, llava_next, llava_next_video, llava_onevision, longformer, longt5, luke, lxmert, m2m_100, mamba, mamba2, marian, markuplm, mask2former, maskformer, maskformer-swin, mbart, mctct, mega, megatron-bert, mgp-str, mimi, mistral, mixtral, mllama, mobilebert, mobilenet_v1, mobilenet_v2, mobilevit, mobilevitv2, moshi, mpnet, mpt, mra, mt5, musicgen, musicgen_melody, mvp, nat, nemotron, nezha, nllb-moe, nougat, nystromformer, olmo, olmoe, omdet-turbo, oneformer, open-llama, openai-gpt, opt, owlv2, owlvit, paligemma, patchtsmixer, patchtst, pegasus, pegasus_x, perceiver, persimmon, phi, phi3, phimoe, pix2struct, pixtral, plbart, poolformer, pop2piano, prophetnet, pvt, pvt_v2, qdqbert, qwen2, qwen2_audio, qwen2_audio_encoder, qwen2_moe, qwen2_vl, rag, realm, recurrent_gemma, reformer, regnet, rembert, resnet, retribert, roberta, roberta-prelayernorm, roc_bert, roformer, rt_detr, rt_detr_resnet, rwkv, sam, seamless_m4t, seamless_m4t_v2, segformer, seggpt, sew, sew-d, siglip, siglip_vision_model, speech-encoder-decoder, speech_to_text, speech_to_text_2, speecht5, splinter, squeezebert, stablelm, starcoder2, superpoint, swiftformer, swin, swin2sr, swinv2, switch_transformers, t5, table-transformer, tapas, time_series_transformer, timesformer, timm_backbone, trajectory_transformer, transfo-xl, trocr, tvlt, tvp, udop, umt5, unispeech, unispeech-sat, univnet, upernet, van, video_llava, videomae, vilt, vipllava, vision-encoder-decoder, vision-text-dual-encoder, visual_bert, vit, vit_hybrid, vit_mae, vit_msn, vitdet, vitmatte, vits, vivit, wav2vec2, wav2vec2-bert, wav2vec2-conformer, wavlm, whisper, xclip, xglm, xlm, xlm-prophetnet, xlm-roberta, xlm-roberta-xl, xlnet, xmod, yolos, yoso, zamba, zoedepth
+Training completed in 6 seconds
+[Tue Aug 12 10:28:41 PM CST 2025] Starting testing for humidity_land-wtd...
+usage: test.py [-h] [-t TEST_FILE] [-m MODEL_PATH] [--model_name MODEL_NAME]
+               [-s SAVE_PATH] [-b BATCH_SIZE] [-d DATASET_NAME]
+test.py: error: unrecognized arguments: --model_name_or_path /home/leizy/24sum/CFRL/src/main_model/trained_model/no_prompt/T5_3_step/humidity_land-wtd --output_file /home/leizy/24sum/CFRL/data/predicted_results/no_prompt/TH/3_step/humidity_land-wtd/predicted.txt --per_device_eval_batch_size=16
+[Tue Aug 12 10:28:43 PM CST 2025] Starting evaluation for humidity_land-wtd...
+Traceback (most recent call last):
+  File "/home/leizy/24sum/CFRL/src/main_model/run/evaluate.py", line 110, in <module>
+    main()
+  File "/home/leizy/24sum/CFRL/src/main_model/run/evaluate.py", line 61, in main
+    with open(args.pred_file, 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/leizy/24sum/CFRL/data/predicted_results/no_prompt/TH/3_step/humidity_land-wtd/predicted.txt'
+[Tue Aug 12 10:28:44 PM CST 2025] Task completed for humidity_land-wtd on GPU 0
+2025/08/12 22:28:44 - WARNING - __main__ - Process rank: 0, device: cuda:0, n_gpu: 1, distributed training: True, 16-bits training: False
+2025/08/12 22:28:45 - WARNING - datasets.builder - Using custom data configuration default-31f404b93951188e
+Downloading and preparing dataset json/default to /home/leizy/.cache/huggingface/datasets/json/default-31f404b93951188e/0.0.0/ac0ca5f5289a6cf108e706efcf040422dbbfa8e658dee6a819f20d76bb84d26b...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 3741.57it/s]
+[Tue Aug 12 10:28:45 PM CST 2025] Processing column: irradiance-toa_land-wtd
+[Tue Aug 12 10:28:45 PM CST 2025] Assigning GPU 0 to irradiance-toa_land-wtd
+[Tue Aug 12 10:28:45 PM CST 2025] Starting training for irradiance-toa_land-wtd on GPU 0
+  0%|          | 0/2 [00:00<?, ?it/s][Tue Aug 12 10:28:45 PM CST 2025] Training model for irradiance-toa_land-wtd...
+100%|██████████| 2/2 [00:00<00:00, 873.45it/s]
+Dataset json downloaded and prepared to /home/leizy/.cache/huggingface/datasets/json/default-31f404b93951188e/0.0.0/ac0ca5f5289a6cf108e706efcf040422dbbfa8e658dee6a819f20d76bb84d26b. Subsequent calls will reuse this data.
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 342.17it/s]
+/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/transformers/models/auto/configuration_auto.py:1002: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+Traceback (most recent call last):
+  File "/home/leizy/24sum/CFRL/src/main_model/run/train.py", line 528, in <module>
+    main()
+  File "/home/leizy/24sum/CFRL/src/main_model/run/train.py", line 264, in main
+    config = AutoConfig.from_pretrained(
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/transformers/models/auto/configuration_auto.py", line 1049, in from_pretrained
+    raise ValueError(
+ValueError: Unrecognized model in /home/leizy/24sum/CFRL/src/main_model/T5-base. Should have a `model_type` key in its config.json, or contain one of the following strings in its name: albert, align, altclip, audio-spectrogram-transformer, autoformer, bark, bart, beit, bert, bert-generation, big_bird, bigbird_pegasus, biogpt, bit, blenderbot, blenderbot-small, blip, blip-2, bloom, bridgetower, bros, camembert, canine, chameleon, chinese_clip, chinese_clip_vision_model, clap, clip, clip_text_model, clip_vision_model, clipseg, clvp, code_llama, codegen, cohere, conditional_detr, convbert, convnext, convnextv2, cpmant, ctrl, cvt, dac, data2vec-audio, data2vec-text, data2vec-vision, dbrx, deberta, deberta-v2, decision_transformer, deformable_detr, deit, depth_anything, deta, detr, dinat, dinov2, distilbert, donut-swin, dpr, dpt, efficientformer, efficientnet, electra, encodec, encoder-decoder, ernie, ernie_m, esm, falcon, falcon_mamba, fastspeech2_conformer, flaubert, flava, fnet, focalnet, fsmt, funnel, fuyu, gemma, gemma2, git, glm, glpn, gpt-sw3, gpt2, gpt_bigcode, gpt_neo, gpt_neox, gpt_neox_japanese, gptj, gptsan-japanese, granite, granitemoe, graphormer, grounding-dino, groupvit, hiera, hubert, ibert, idefics, idefics2, idefics3, imagegpt, informer, instructblip, instructblipvideo, jamba, jetmoe, jukebox, kosmos-2, layoutlm, layoutlmv2, layoutlmv3, led, levit, lilt, llama, llava, llava_next, llava_next_video, llava_onevision, longformer, longt5, luke, lxmert, m2m_100, mamba, mamba2, marian, markuplm, mask2former, maskformer, maskformer-swin, mbart, mctct, mega, megatron-bert, mgp-str, mimi, mistral, mixtral, mllama, mobilebert, mobilenet_v1, mobilenet_v2, mobilevit, mobilevitv2, moshi, mpnet, mpt, mra, mt5, musicgen, musicgen_melody, mvp, nat, nemotron, nezha, nllb-moe, nougat, nystromformer, olmo, olmoe, omdet-turbo, oneformer, open-llama, openai-gpt, opt, owlv2, owlvit, paligemma, patchtsmixer, patchtst, pegasus, pegasus_x, perceiver, persimmon, phi, phi3, phimoe, pix2struct, pixtral, plbart, poolformer, pop2piano, prophetnet, pvt, pvt_v2, qdqbert, qwen2, qwen2_audio, qwen2_audio_encoder, qwen2_moe, qwen2_vl, rag, realm, recurrent_gemma, reformer, regnet, rembert, resnet, retribert, roberta, roberta-prelayernorm, roc_bert, roformer, rt_detr, rt_detr_resnet, rwkv, sam, seamless_m4t, seamless_m4t_v2, segformer, seggpt, sew, sew-d, siglip, siglip_vision_model, speech-encoder-decoder, speech_to_text, speech_to_text_2, speecht5, splinter, squeezebert, stablelm, starcoder2, superpoint, swiftformer, swin, swin2sr, swinv2, switch_transformers, t5, table-transformer, tapas, time_series_transformer, timesformer, timm_backbone, trajectory_transformer, transfo-xl, trocr, tvlt, tvp, udop, umt5, unispeech, unispeech-sat, univnet, upernet, van, video_llava, videomae, vilt, vipllava, vision-encoder-decoder, vision-text-dual-encoder, visual_bert, vit, vit_hybrid, vit_mae, vit_msn, vitdet, vitmatte, vits, vivit, wav2vec2, wav2vec2-bert, wav2vec2-conformer, wavlm, whisper, xclip, xglm, xlm, xlm-prophetnet, xlm-roberta, xlm-roberta-xl, xlnet, xmod, yolos, yoso, zamba, zoedepth
+Training completed in 6 seconds
+[Tue Aug 12 10:28:46 PM CST 2025] Starting testing for irradiance-surface_land-wtd...
+usage: test.py [-h] [-t TEST_FILE] [-m MODEL_PATH] [--model_name MODEL_NAME]
+               [-s SAVE_PATH] [-b BATCH_SIZE] [-d DATASET_NAME]
+test.py: error: unrecognized arguments: --model_name_or_path /home/leizy/24sum/CFRL/src/main_model/trained_model/no_prompt/T5_3_step/irradiance-surface_land-wtd --output_file /home/leizy/24sum/CFRL/data/predicted_results/no_prompt/TH/3_step/irradiance-surface_land-wtd/predicted.txt --per_device_eval_batch_size=16
+[Tue Aug 12 10:28:48 PM CST 2025] Starting evaluation for irradiance-surface_land-wtd...
+2025/08/12 22:28:49 - WARNING - __main__ - Process rank: 0, device: cuda:0, n_gpu: 1, distributed training: True, 16-bits training: False
+Traceback (most recent call last):
+  File "/home/leizy/24sum/CFRL/src/main_model/run/evaluate.py", line 110, in <module>
+    main()
+  File "/home/leizy/24sum/CFRL/src/main_model/run/evaluate.py", line 61, in main
+    with open(args.pred_file, 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/leizy/24sum/CFRL/data/predicted_results/no_prompt/TH/3_step/irradiance-surface_land-wtd/predicted.txt'
+[Tue Aug 12 10:28:49 PM CST 2025] Task completed for irradiance-surface_land-wtd on GPU 1
+2025/08/12 22:28:50 - WARNING - datasets.builder - Using custom data configuration default-77df621de1fb3490
+Downloading and preparing dataset json/default to /home/leizy/.cache/huggingface/datasets/json/default-77df621de1fb3490/0.0.0/ac0ca5f5289a6cf108e706efcf040422dbbfa8e658dee6a819f20d76bb84d26b...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 3837.42it/s]
+[Tue Aug 12 10:28:50 PM CST 2025] Processing column: precipitation_land-wtd
+[Tue Aug 12 10:28:50 PM CST 2025] Assigning GPU 1 to precipitation_land-wtd
+[Tue Aug 12 10:28:50 PM CST 2025] Starting training for precipitation_land-wtd on GPU 1
+[Tue Aug 12 10:28:50 PM CST 2025] Training model for precipitation_land-wtd...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 482.27it/s]
+Dataset json downloaded and prepared to /home/leizy/.cache/huggingface/datasets/json/default-77df621de1fb3490/0.0.0/ac0ca5f5289a6cf108e706efcf040422dbbfa8e658dee6a819f20d76bb84d26b. Subsequent calls will reuse this data.
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 197.18it/s]
+/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/transformers/models/auto/configuration_auto.py:1002: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+Traceback (most recent call last):
+  File "/home/leizy/24sum/CFRL/src/main_model/run/train.py", line 528, in <module>
+    main()
+  File "/home/leizy/24sum/CFRL/src/main_model/run/train.py", line 264, in main
+    config = AutoConfig.from_pretrained(
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/transformers/models/auto/configuration_auto.py", line 1049, in from_pretrained
+    raise ValueError(
+ValueError: Unrecognized model in /home/leizy/24sum/CFRL/src/main_model/T5-base. Should have a `model_type` key in its config.json, or contain one of the following strings in its name: albert, align, altclip, audio-spectrogram-transformer, autoformer, bark, bart, beit, bert, bert-generation, big_bird, bigbird_pegasus, biogpt, bit, blenderbot, blenderbot-small, blip, blip-2, bloom, bridgetower, bros, camembert, canine, chameleon, chinese_clip, chinese_clip_vision_model, clap, clip, clip_text_model, clip_vision_model, clipseg, clvp, code_llama, codegen, cohere, conditional_detr, convbert, convnext, convnextv2, cpmant, ctrl, cvt, dac, data2vec-audio, data2vec-text, data2vec-vision, dbrx, deberta, deberta-v2, decision_transformer, deformable_detr, deit, depth_anything, deta, detr, dinat, dinov2, distilbert, donut-swin, dpr, dpt, efficientformer, efficientnet, electra, encodec, encoder-decoder, ernie, ernie_m, esm, falcon, falcon_mamba, fastspeech2_conformer, flaubert, flava, fnet, focalnet, fsmt, funnel, fuyu, gemma, gemma2, git, glm, glpn, gpt-sw3, gpt2, gpt_bigcode, gpt_neo, gpt_neox, gpt_neox_japanese, gptj, gptsan-japanese, granite, granitemoe, graphormer, grounding-dino, groupvit, hiera, hubert, ibert, idefics, idefics2, idefics3, imagegpt, informer, instructblip, instructblipvideo, jamba, jetmoe, jukebox, kosmos-2, layoutlm, layoutlmv2, layoutlmv3, led, levit, lilt, llama, llava, llava_next, llava_next_video, llava_onevision, longformer, longt5, luke, lxmert, m2m_100, mamba, mamba2, marian, markuplm, mask2former, maskformer, maskformer-swin, mbart, mctct, mega, megatron-bert, mgp-str, mimi, mistral, mixtral, mllama, mobilebert, mobilenet_v1, mobilenet_v2, mobilevit, mobilevitv2, moshi, mpnet, mpt, mra, mt5, musicgen, musicgen_melody, mvp, nat, nemotron, nezha, nllb-moe, nougat, nystromformer, olmo, olmoe, omdet-turbo, oneformer, open-llama, openai-gpt, opt, owlv2, owlvit, paligemma, patchtsmixer, patchtst, pegasus, pegasus_x, perceiver, persimmon, phi, phi3, phimoe, pix2struct, pixtral, plbart, poolformer, pop2piano, prophetnet, pvt, pvt_v2, qdqbert, qwen2, qwen2_audio, qwen2_audio_encoder, qwen2_moe, qwen2_vl, rag, realm, recurrent_gemma, reformer, regnet, rembert, resnet, retribert, roberta, roberta-prelayernorm, roc_bert, roformer, rt_detr, rt_detr_resnet, rwkv, sam, seamless_m4t, seamless_m4t_v2, segformer, seggpt, sew, sew-d, siglip, siglip_vision_model, speech-encoder-decoder, speech_to_text, speech_to_text_2, speecht5, splinter, squeezebert, stablelm, starcoder2, superpoint, swiftformer, swin, swin2sr, swinv2, switch_transformers, t5, table-transformer, tapas, time_series_transformer, timesformer, timm_backbone, trajectory_transformer, transfo-xl, trocr, tvlt, tvp, udop, umt5, unispeech, unispeech-sat, univnet, upernet, van, video_llava, videomae, vilt, vipllava, vision-encoder-decoder, vision-text-dual-encoder, visual_bert, vit, vit_hybrid, vit_mae, vit_msn, vitdet, vitmatte, vits, vivit, wav2vec2, wav2vec2-bert, wav2vec2-conformer, wavlm, whisper, xclip, xglm, xlm, xlm-prophetnet, xlm-roberta, xlm-roberta-xl, xlnet, xmod, yolos, yoso, zamba, zoedepth
+Training completed in 6 seconds
+[Tue Aug 12 10:28:51 PM CST 2025] Starting testing for irradiance-toa_land-wtd...
+usage: test.py [-h] [-t TEST_FILE] [-m MODEL_PATH] [--model_name MODEL_NAME]
+               [-s SAVE_PATH] [-b BATCH_SIZE] [-d DATASET_NAME]
+test.py: error: unrecognized arguments: --model_name_or_path /home/leizy/24sum/CFRL/src/main_model/trained_model/no_prompt/T5_3_step/irradiance-toa_land-wtd --output_file /home/leizy/24sum/CFRL/data/predicted_results/no_prompt/TH/3_step/irradiance-toa_land-wtd/predicted.txt --per_device_eval_batch_size=16
+[Tue Aug 12 10:28:53 PM CST 2025] Starting evaluation for irradiance-toa_land-wtd...
+2025/08/12 22:28:54 - WARNING - __main__ - Process rank: 0, device: cuda:0, n_gpu: 1, distributed training: True, 16-bits training: False
+Traceback (most recent call last):
+  File "/home/leizy/24sum/CFRL/src/main_model/run/evaluate.py", line 110, in <module>
+    main()
+  File "/home/leizy/24sum/CFRL/src/main_model/run/evaluate.py", line 61, in main
+    with open(args.pred_file, 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/leizy/24sum/CFRL/data/predicted_results/no_prompt/TH/3_step/irradiance-toa_land-wtd/predicted.txt'
+[Tue Aug 12 10:28:54 PM CST 2025] Task completed for irradiance-toa_land-wtd on GPU 0
+[Tue Aug 12 10:28:55 PM CST 2025] Processing column: temperature_land-wtd
+[Tue Aug 12 10:28:55 PM CST 2025] Assigning GPU 0 to temperature_land-wtd
+[Tue Aug 12 10:28:55 PM CST 2025] Starting training for temperature_land-wtd on GPU 0
+[Tue Aug 12 10:28:55 PM CST 2025] Training model for temperature_land-wtd...
+2025/08/12 22:28:55 - WARNING - datasets.builder - Using custom data configuration default-a5d18380c6f9478c
+Downloading and preparing dataset json/default to /home/leizy/.cache/huggingface/datasets/json/default-a5d18380c6f9478c/0.0.0/ac0ca5f5289a6cf108e706efcf040422dbbfa8e658dee6a819f20d76bb84d26b...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 3758.34it/s]
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 1227.30it/s]
+Dataset json downloaded and prepared to /home/leizy/.cache/huggingface/datasets/json/default-a5d18380c6f9478c/0.0.0/ac0ca5f5289a6cf108e706efcf040422dbbfa8e658dee6a819f20d76bb84d26b. Subsequent calls will reuse this data.
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 396.72it/s]
+/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/transformers/models/auto/configuration_auto.py:1002: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+Traceback (most recent call last):
+  File "/home/leizy/24sum/CFRL/src/main_model/run/train.py", line 528, in <module>
+    main()
+  File "/home/leizy/24sum/CFRL/src/main_model/run/train.py", line 264, in main
+    config = AutoConfig.from_pretrained(
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/transformers/models/auto/configuration_auto.py", line 1049, in from_pretrained
+    raise ValueError(
+ValueError: Unrecognized model in /home/leizy/24sum/CFRL/src/main_model/T5-base. Should have a `model_type` key in its config.json, or contain one of the following strings in its name: albert, align, altclip, audio-spectrogram-transformer, autoformer, bark, bart, beit, bert, bert-generation, big_bird, bigbird_pegasus, biogpt, bit, blenderbot, blenderbot-small, blip, blip-2, bloom, bridgetower, bros, camembert, canine, chameleon, chinese_clip, chinese_clip_vision_model, clap, clip, clip_text_model, clip_vision_model, clipseg, clvp, code_llama, codegen, cohere, conditional_detr, convbert, convnext, convnextv2, cpmant, ctrl, cvt, dac, data2vec-audio, data2vec-text, data2vec-vision, dbrx, deberta, deberta-v2, decision_transformer, deformable_detr, deit, depth_anything, deta, detr, dinat, dinov2, distilbert, donut-swin, dpr, dpt, efficientformer, efficientnet, electra, encodec, encoder-decoder, ernie, ernie_m, esm, falcon, falcon_mamba, fastspeech2_conformer, flaubert, flava, fnet, focalnet, fsmt, funnel, fuyu, gemma, gemma2, git, glm, glpn, gpt-sw3, gpt2, gpt_bigcode, gpt_neo, gpt_neox, gpt_neox_japanese, gptj, gptsan-japanese, granite, granitemoe, graphormer, grounding-dino, groupvit, hiera, hubert, ibert, idefics, idefics2, idefics3, imagegpt, informer, instructblip, instructblipvideo, jamba, jetmoe, jukebox, kosmos-2, layoutlm, layoutlmv2, layoutlmv3, led, levit, lilt, llama, llava, llava_next, llava_next_video, llava_onevision, longformer, longt5, luke, lxmert, m2m_100, mamba, mamba2, marian, markuplm, mask2former, maskformer, maskformer-swin, mbart, mctct, mega, megatron-bert, mgp-str, mimi, mistral, mixtral, mllama, mobilebert, mobilenet_v1, mobilenet_v2, mobilevit, mobilevitv2, moshi, mpnet, mpt, mra, mt5, musicgen, musicgen_melody, mvp, nat, nemotron, nezha, nllb-moe, nougat, nystromformer, olmo, olmoe, omdet-turbo, oneformer, open-llama, openai-gpt, opt, owlv2, owlvit, paligemma, patchtsmixer, patchtst, pegasus, pegasus_x, perceiver, persimmon, phi, phi3, phimoe, pix2struct, pixtral, plbart, poolformer, pop2piano, prophetnet, pvt, pvt_v2, qdqbert, qwen2, qwen2_audio, qwen2_audio_encoder, qwen2_moe, qwen2_vl, rag, realm, recurrent_gemma, reformer, regnet, rembert, resnet, retribert, roberta, roberta-prelayernorm, roc_bert, roformer, rt_detr, rt_detr_resnet, rwkv, sam, seamless_m4t, seamless_m4t_v2, segformer, seggpt, sew, sew-d, siglip, siglip_vision_model, speech-encoder-decoder, speech_to_text, speech_to_text_2, speecht5, splinter, squeezebert, stablelm, starcoder2, superpoint, swiftformer, swin, swin2sr, swinv2, switch_transformers, t5, table-transformer, tapas, time_series_transformer, timesformer, timm_backbone, trajectory_transformer, transfo-xl, trocr, tvlt, tvp, udop, umt5, unispeech, unispeech-sat, univnet, upernet, van, video_llava, videomae, vilt, vipllava, vision-encoder-decoder, vision-text-dual-encoder, visual_bert, vit, vit_hybrid, vit_mae, vit_msn, vitdet, vitmatte, vits, vivit, wav2vec2, wav2vec2-bert, wav2vec2-conformer, wavlm, whisper, xclip, xglm, xlm, xlm-prophetnet, xlm-roberta, xlm-roberta-xl, xlnet, xmod, yolos, yoso, zamba, zoedepth
+Training completed in 6 seconds
+[Tue Aug 12 10:28:56 PM CST 2025] Starting testing for precipitation_land-wtd...
+usage: test.py [-h] [-t TEST_FILE] [-m MODEL_PATH] [--model_name MODEL_NAME]
+               [-s SAVE_PATH] [-b BATCH_SIZE] [-d DATASET_NAME]
+test.py: error: unrecognized arguments: --model_name_or_path /home/leizy/24sum/CFRL/src/main_model/trained_model/no_prompt/T5_3_step/precipitation_land-wtd --output_file /home/leizy/24sum/CFRL/data/predicted_results/no_prompt/TH/3_step/precipitation_land-wtd/predicted.txt --per_device_eval_batch_size=16
+[Tue Aug 12 10:28:59 PM CST 2025] Starting evaluation for precipitation_land-wtd...
+2025/08/12 22:28:59 - WARNING - __main__ - Process rank: 0, device: cuda:0, n_gpu: 1, distributed training: True, 16-bits training: False
+Traceback (most recent call last):
+  File "/home/leizy/24sum/CFRL/src/main_model/run/evaluate.py", line 110, in <module>
+    main()
+  File "/home/leizy/24sum/CFRL/src/main_model/run/evaluate.py", line 61, in main
+    with open(args.pred_file, 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/leizy/24sum/CFRL/data/predicted_results/no_prompt/TH/3_step/precipitation_land-wtd/predicted.txt'
+[Tue Aug 12 10:29:00 PM CST 2025] Task completed for precipitation_land-wtd on GPU 1
+2025/08/12 22:29:00 - WARNING - datasets.builder - Using custom data configuration default-dbb57002dd37fbe0
+Downloading and preparing dataset json/default to /home/leizy/.cache/huggingface/datasets/json/default-dbb57002dd37fbe0/0.0.0/ac0ca5f5289a6cf108e706efcf040422dbbfa8e658dee6a819f20d76bb84d26b...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 3763.40it/s]
+[Tue Aug 12 10:29:00 PM CST 2025] Processing column: wind-speed_land-wtd
+[Tue Aug 12 10:29:00 PM CST 2025] Assigning GPU 1 to wind-speed_land-wtd
+[Tue Aug 12 10:29:00 PM CST 2025] Starting training for wind-speed_land-wtd on GPU 1
+[Tue Aug 12 10:29:00 PM CST 2025] Training model for wind-speed_land-wtd...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 679.79it/s]
+Dataset json downloaded and prepared to /home/leizy/.cache/huggingface/datasets/json/default-dbb57002dd37fbe0/0.0.0/ac0ca5f5289a6cf108e706efcf040422dbbfa8e658dee6a819f20d76bb84d26b. Subsequent calls will reuse this data.
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 235.47it/s]
+/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/transformers/models/auto/configuration_auto.py:1002: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+Traceback (most recent call last):
+  File "/home/leizy/24sum/CFRL/src/main_model/run/train.py", line 528, in <module>
+    main()
+  File "/home/leizy/24sum/CFRL/src/main_model/run/train.py", line 264, in main
+    config = AutoConfig.from_pretrained(
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/transformers/models/auto/configuration_auto.py", line 1049, in from_pretrained
+    raise ValueError(
+ValueError: Unrecognized model in /home/leizy/24sum/CFRL/src/main_model/T5-base. Should have a `model_type` key in its config.json, or contain one of the following strings in its name: albert, align, altclip, audio-spectrogram-transformer, autoformer, bark, bart, beit, bert, bert-generation, big_bird, bigbird_pegasus, biogpt, bit, blenderbot, blenderbot-small, blip, blip-2, bloom, bridgetower, bros, camembert, canine, chameleon, chinese_clip, chinese_clip_vision_model, clap, clip, clip_text_model, clip_vision_model, clipseg, clvp, code_llama, codegen, cohere, conditional_detr, convbert, convnext, convnextv2, cpmant, ctrl, cvt, dac, data2vec-audio, data2vec-text, data2vec-vision, dbrx, deberta, deberta-v2, decision_transformer, deformable_detr, deit, depth_anything, deta, detr, dinat, dinov2, distilbert, donut-swin, dpr, dpt, efficientformer, efficientnet, electra, encodec, encoder-decoder, ernie, ernie_m, esm, falcon, falcon_mamba, fastspeech2_conformer, flaubert, flava, fnet, focalnet, fsmt, funnel, fuyu, gemma, gemma2, git, glm, glpn, gpt-sw3, gpt2, gpt_bigcode, gpt_neo, gpt_neox, gpt_neox_japanese, gptj, gptsan-japanese, granite, granitemoe, graphormer, grounding-dino, groupvit, hiera, hubert, ibert, idefics, idefics2, idefics3, imagegpt, informer, instructblip, instructblipvideo, jamba, jetmoe, jukebox, kosmos-2, layoutlm, layoutlmv2, layoutlmv3, led, levit, lilt, llama, llava, llava_next, llava_next_video, llava_onevision, longformer, longt5, luke, lxmert, m2m_100, mamba, mamba2, marian, markuplm, mask2former, maskformer, maskformer-swin, mbart, mctct, mega, megatron-bert, mgp-str, mimi, mistral, mixtral, mllama, mobilebert, mobilenet_v1, mobilenet_v2, mobilevit, mobilevitv2, moshi, mpnet, mpt, mra, mt5, musicgen, musicgen_melody, mvp, nat, nemotron, nezha, nllb-moe, nougat, nystromformer, olmo, olmoe, omdet-turbo, oneformer, open-llama, openai-gpt, opt, owlv2, owlvit, paligemma, patchtsmixer, patchtst, pegasus, pegasus_x, perceiver, persimmon, phi, phi3, phimoe, pix2struct, pixtral, plbart, poolformer, pop2piano, prophetnet, pvt, pvt_v2, qdqbert, qwen2, qwen2_audio, qwen2_audio_encoder, qwen2_moe, qwen2_vl, rag, realm, recurrent_gemma, reformer, regnet, rembert, resnet, retribert, roberta, roberta-prelayernorm, roc_bert, roformer, rt_detr, rt_detr_resnet, rwkv, sam, seamless_m4t, seamless_m4t_v2, segformer, seggpt, sew, sew-d, siglip, siglip_vision_model, speech-encoder-decoder, speech_to_text, speech_to_text_2, speecht5, splinter, squeezebert, stablelm, starcoder2, superpoint, swiftformer, swin, swin2sr, swinv2, switch_transformers, t5, table-transformer, tapas, time_series_transformer, timesformer, timm_backbone, trajectory_transformer, transfo-xl, trocr, tvlt, tvp, udop, umt5, unispeech, unispeech-sat, univnet, upernet, van, video_llava, videomae, vilt, vipllava, vision-encoder-decoder, vision-text-dual-encoder, visual_bert, vit, vit_hybrid, vit_mae, vit_msn, vitdet, vitmatte, vits, vivit, wav2vec2, wav2vec2-bert, wav2vec2-conformer, wavlm, whisper, xclip, xglm, xlm, xlm-prophetnet, xlm-roberta, xlm-roberta-xl, xlnet, xmod, yolos, yoso, zamba, zoedepth
+Training completed in 6 seconds
+[Tue Aug 12 10:29:01 PM CST 2025] Starting testing for temperature_land-wtd...
+usage: test.py [-h] [-t TEST_FILE] [-m MODEL_PATH] [--model_name MODEL_NAME]
+               [-s SAVE_PATH] [-b BATCH_SIZE] [-d DATASET_NAME]
+test.py: error: unrecognized arguments: --model_name_or_path /home/leizy/24sum/CFRL/src/main_model/trained_model/no_prompt/T5_3_step/temperature_land-wtd --output_file /home/leizy/24sum/CFRL/data/predicted_results/no_prompt/TH/3_step/temperature_land-wtd/predicted.txt --per_device_eval_batch_size=16
+[Tue Aug 12 10:29:04 PM CST 2025] Starting evaluation for temperature_land-wtd...
+2025/08/12 22:29:04 - WARNING - __main__ - Process rank: 0, device: cuda:0, n_gpu: 1, distributed training: True, 16-bits training: False
+Traceback (most recent call last):
+  File "/home/leizy/24sum/CFRL/src/main_model/run/evaluate.py", line 110, in <module>
+    main()
+  File "/home/leizy/24sum/CFRL/src/main_model/run/evaluate.py", line 61, in main
+    with open(args.pred_file, 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/leizy/24sum/CFRL/data/predicted_results/no_prompt/TH/3_step/temperature_land-wtd/predicted.txt'
+[Tue Aug 12 10:29:04 PM CST 2025] Task completed for temperature_land-wtd on GPU 0
+2025/08/12 22:29:05 - WARNING - datasets.builder - Using custom data configuration default-85ac55c18e1bca3e
+Downloading and preparing dataset json/default to /home/leizy/.cache/huggingface/datasets/json/default-85ac55c18e1bca3e/0.0.0/ac0ca5f5289a6cf108e706efcf040422dbbfa8e658dee6a819f20d76bb84d26b...
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 3572.66it/s]
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 717.47it/s]
+Dataset json downloaded and prepared to /home/leizy/.cache/huggingface/datasets/json/default-85ac55c18e1bca3e/0.0.0/ac0ca5f5289a6cf108e706efcf040422dbbfa8e658dee6a819f20d76bb84d26b. Subsequent calls will reuse this data.
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 382.40it/s]
+/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/transformers/models/auto/configuration_auto.py:1002: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+Traceback (most recent call last):
+  File "/home/leizy/24sum/CFRL/src/main_model/run/train.py", line 528, in <module>
+    main()
+  File "/home/leizy/24sum/CFRL/src/main_model/run/train.py", line 264, in main
+    config = AutoConfig.from_pretrained(
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/transformers/models/auto/configuration_auto.py", line 1049, in from_pretrained
+    raise ValueError(
+ValueError: Unrecognized model in /home/leizy/24sum/CFRL/src/main_model/T5-base. Should have a `model_type` key in its config.json, or contain one of the following strings in its name: albert, align, altclip, audio-spectrogram-transformer, autoformer, bark, bart, beit, bert, bert-generation, big_bird, bigbird_pegasus, biogpt, bit, blenderbot, blenderbot-small, blip, blip-2, bloom, bridgetower, bros, camembert, canine, chameleon, chinese_clip, chinese_clip_vision_model, clap, clip, clip_text_model, clip_vision_model, clipseg, clvp, code_llama, codegen, cohere, conditional_detr, convbert, convnext, convnextv2, cpmant, ctrl, cvt, dac, data2vec-audio, data2vec-text, data2vec-vision, dbrx, deberta, deberta-v2, decision_transformer, deformable_detr, deit, depth_anything, deta, detr, dinat, dinov2, distilbert, donut-swin, dpr, dpt, efficientformer, efficientnet, electra, encodec, encoder-decoder, ernie, ernie_m, esm, falcon, falcon_mamba, fastspeech2_conformer, flaubert, flava, fnet, focalnet, fsmt, funnel, fuyu, gemma, gemma2, git, glm, glpn, gpt-sw3, gpt2, gpt_bigcode, gpt_neo, gpt_neox, gpt_neox_japanese, gptj, gptsan-japanese, granite, granitemoe, graphormer, grounding-dino, groupvit, hiera, hubert, ibert, idefics, idefics2, idefics3, imagegpt, informer, instructblip, instructblipvideo, jamba, jetmoe, jukebox, kosmos-2, layoutlm, layoutlmv2, layoutlmv3, led, levit, lilt, llama, llava, llava_next, llava_next_video, llava_onevision, longformer, longt5, luke, lxmert, m2m_100, mamba, mamba2, marian, markuplm, mask2former, maskformer, maskformer-swin, mbart, mctct, mega, megatron-bert, mgp-str, mimi, mistral, mixtral, mllama, mobilebert, mobilenet_v1, mobilenet_v2, mobilevit, mobilevitv2, moshi, mpnet, mpt, mra, mt5, musicgen, musicgen_melody, mvp, nat, nemotron, nezha, nllb-moe, nougat, nystromformer, olmo, olmoe, omdet-turbo, oneformer, open-llama, openai-gpt, opt, owlv2, owlvit, paligemma, patchtsmixer, patchtst, pegasus, pegasus_x, perceiver, persimmon, phi, phi3, phimoe, pix2struct, pixtral, plbart, poolformer, pop2piano, prophetnet, pvt, pvt_v2, qdqbert, qwen2, qwen2_audio, qwen2_audio_encoder, qwen2_moe, qwen2_vl, rag, realm, recurrent_gemma, reformer, regnet, rembert, resnet, retribert, roberta, roberta-prelayernorm, roc_bert, roformer, rt_detr, rt_detr_resnet, rwkv, sam, seamless_m4t, seamless_m4t_v2, segformer, seggpt, sew, sew-d, siglip, siglip_vision_model, speech-encoder-decoder, speech_to_text, speech_to_text_2, speecht5, splinter, squeezebert, stablelm, starcoder2, superpoint, swiftformer, swin, swin2sr, swinv2, switch_transformers, t5, table-transformer, tapas, time_series_transformer, timesformer, timm_backbone, trajectory_transformer, transfo-xl, trocr, tvlt, tvp, udop, umt5, unispeech, unispeech-sat, univnet, upernet, van, video_llava, videomae, vilt, vipllava, vision-encoder-decoder, vision-text-dual-encoder, visual_bert, vit, vit_hybrid, vit_mae, vit_msn, vitdet, vitmatte, vits, vivit, wav2vec2, wav2vec2-bert, wav2vec2-conformer, wavlm, whisper, xclip, xglm, xlm, xlm-prophetnet, xlm-roberta, xlm-roberta-xl, xlnet, xmod, yolos, yoso, zamba, zoedepth
+Training completed in 6 seconds
+[Tue Aug 12 10:29:06 PM CST 2025] Starting testing for wind-speed_land-wtd...
+usage: test.py [-h] [-t TEST_FILE] [-m MODEL_PATH] [--model_name MODEL_NAME]
+               [-s SAVE_PATH] [-b BATCH_SIZE] [-d DATASET_NAME]
+test.py: error: unrecognized arguments: --model_name_or_path /home/leizy/24sum/CFRL/src/main_model/trained_model/no_prompt/T5_3_step/wind-speed_land-wtd --output_file /home/leizy/24sum/CFRL/data/predicted_results/no_prompt/TH/3_step/wind-speed_land-wtd/predicted.txt --per_device_eval_batch_size=16
+[Tue Aug 12 10:29:08 PM CST 2025] Starting evaluation for wind-speed_land-wtd...
+Traceback (most recent call last):
+  File "/home/leizy/24sum/CFRL/src/main_model/run/evaluate.py", line 110, in <module>
+    main()
+  File "/home/leizy/24sum/CFRL/src/main_model/run/evaluate.py", line 61, in main
+    with open(args.pred_file, 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/leizy/24sum/CFRL/data/predicted_results/no_prompt/TH/3_step/wind-speed_land-wtd/predicted.txt'
+[Tue Aug 12 10:29:09 PM CST 2025] Task completed for wind-speed_land-wtd on GPU 1
+[Tue Aug 12 10:29:09 PM CST 2025] All tasks completed for no_prompt 3_step

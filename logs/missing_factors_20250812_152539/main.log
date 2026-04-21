@@ -1,0 +1,19 @@
+[2025-08-12 15:25:39] === 开始补跑缺失气候因子 ===
+[2025-08-12 15:25:40] 日志目录: /home/leizy/24sum/CFRL/logs/missing_factors_20250812_152539
+[2025-08-12 15:25:40] 缺失因子数量: 6
+[2025-08-12 15:25:40] 缺失因子列表: humidity_land-wtd irradiance-surface_land-wtd irradiance-toa_land-wtd precipitation_land-wtd temperature_land-wtd wind-speed_land-wtd
+[2025-08-12 15:25:40] === 开始处理 with_prompt 1_step ===
+[2025-08-12 15:25:40] with_prompt 1_step 缺失因子: humidity_land-wtd irradiance-surface_land-wtd irradiance-toa_land-wtd precipitation_land-wtd temperature_land-wtd wind-speed_land-wtd
+[2025-08-12 15:25:40] 运行训练脚本，日志: /home/leizy/24sum/CFRL/logs/missing_factors_20250812_152539/with_prompt_1_step.log
+[2025-08-12 17:25:40] with_prompt 1_step 完成
+[2025-08-12 17:26:10] === 开始处理 with_prompt 3_step ===
+[2025-08-12 17:26:10] with_prompt 3_step 缺失因子: humidity_land-wtd irradiance-surface_land-wtd irradiance-toa_land-wtd precipitation_land-wtd temperature_land-wtd wind-speed_land-wtd
+[2025-08-12 17:26:10] 运行训练脚本，日志: /home/leizy/24sum/CFRL/logs/missing_factors_20250812_152539/with_prompt_3_step.log
+[2025-08-12 19:26:10] with_prompt 3_step 完成
+[2025-08-12 19:26:40] === 开始处理 with_prompt 5_step ===
+[2025-08-12 19:26:40] with_prompt 5_step 缺失因子: humidity_land-wtd irradiance-surface_land-wtd irradiance-toa_land-wtd precipitation_land-wtd temperature_land-wtd wind-speed_land-wtd
+[2025-08-12 19:26:40] 运行训练脚本，日志: /home/leizy/24sum/CFRL/logs/missing_factors_20250812_152539/with_prompt_5_step.log
+[2025-08-12 21:26:40] with_prompt 5_step 完成
+[2025-08-12 21:27:10] === 开始处理 no_prompt 1_step ===
+[2025-08-12 21:27:10] no_prompt 1_step 缺失因子: humidity_land-wtd irradiance-surface_land-wtd irradiance-toa_land-wtd precipitation_land-wtd temperature_land-wtd wind-speed_land-wtd
+[2025-08-12 21:27:10] 运行训练脚本，日志: /home/leizy/24sum/CFRL/logs/missing_factors_20250812_152539/no_prompt_1_step.log

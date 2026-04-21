@@ -1,0 +1,6 @@
+Results for irradiance-surface_land-wtd:
+MAE: 3.902639713394812
+RMSE: 7.353626304573845
+SMAPE: 89.96204916349768%
+R^2: 0.9992499542781332
+missing_rate: 0.0%

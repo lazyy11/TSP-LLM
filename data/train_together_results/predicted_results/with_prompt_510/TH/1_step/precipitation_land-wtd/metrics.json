@@ -1,0 +1,13 @@
+{
+  "column_name": "precipitation_land-wtd",
+  "total_samples": 77,
+  "valid_samples": 77,
+  "missing_rate": 0.0,
+  "metrics": {
+    "rmse": 0.00025482359571881276,
+    "mae": 6.493506493506494e-05,
+    "r2": 0.7038461538461538,
+    "mape": 25974029.870129872,
+    "smape": NaN
+  }
+}

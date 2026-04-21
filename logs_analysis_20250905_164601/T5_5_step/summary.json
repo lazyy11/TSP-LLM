@@ -1,0 +1,257 @@
+{
+  "total_columns": 16,
+  "successful_columns": 16,
+  "metrics_summary": {
+    "rmse": {
+      "mean": 3.0913581498957843,
+      "std": 7.1064929557928505,
+      "min": 0.0005456203593312848,
+      "max": 23.927352504307308
+    },
+    "mae": {
+      "mean": 1.2461222804302732,
+      "std": 3.1574402416698324,
+      "min": 0.0002865651043048993,
+      "max": 10.529267995382227
+    },
+    "r2": {
+      "mean": 0.9370285021620203,
+      "std": 0.08161179942114573,
+      "min": 0.7337693313953841,
+      "max": 0.9999774311038698
+    },
+    "mape": {
+      "mean": 36888466.504596345,
+      "std": 94704687.53429466,
+      "min": 0.07424697162555162,
+      "max": 300901001.2714944
+    },
+    "smape": {
+      "mean": 3.420904008489829,
+      "std": 3.2039245800068517,
+      "min": 0.0742603833133268,
+      "max": 8.74934140173041
+    }
+  },
+  "missing_rate_summary": {
+    "mean": 0.056809888403816296,
+    "std": 0.21215855629455163,
+    "min": 0.0,
+    "max": 0.8784384495959449
+  },
+  "individual_results": [
+    {
+      "column_name": "air-density_land-wtd",
+      "total_samples": 75361,
+      "valid_samples": 75361,
+      "missing_rate": 0.0,
+      "metrics": {
+        "rmse": 0.0013495594679574648,
+        "mae": 0.0008388874882233501,
+        "r2": 0.9921862191877757,
+        "mape": 0.07424697162555162,
+        "smape": 0.0742603833133268
+      }
+    },
+    {
+      "column_name": "air-density_pop-wtd",
+      "total_samples": 75361,
+      "valid_samples": 75360,
+      "missing_rate": 0.0013269462984833004,
+      "metrics": {
+        "rmse": 0.0024994723434664592,
+        "mae": 0.0009219851380042458,
+        "r2": 0.9690157924188841,
+        "mape": 0.08062131121937746,
+        "smape": 0.08050079614407102
+      }
+    },
+    {
+      "column_name": "cloud-cover_land-wtd",
+      "total_samples": 75361,
+      "valid_samples": 75361,
+      "missing_rate": 0.0,
+      "metrics": {
+        "rmse": 0.058769835711208446,
+        "mae": 0.036743641936810824,
+        "r2": 0.9162774468089411,
+        "mape": 7.229866528522916,
+        "smape": 7.02658346132288
+      }
+    },
+    {
+      "column_name": "cloud-cover_pop-wtd",
+      "total_samples": 75361,
+      "valid_samples": 75360,
+      "missing_rate": 0.0013269462984833004,
+      "metrics": {
+        "rmse": 0.07647623472148861,
+        "mae": 0.04653498142250531,
+        "r2": 0.8548722996962203,
+        "mape": 8.938831693674926,
+        "smape": 8.74934140173041
+      }
+    },
+    {
+      "column_name": "humidity_pop-wtd",
+      "total_samples": 75361,
+      "valid_samples": 75357,
+      "missing_rate": 0.005307785193933202,
+      "metrics": {
+        "rmse": 0.000585169546335973,
+        "mae": 0.0003225075308199636,
+        "r2": 0.9506523226744936,
+        "mape": 2.0141521732966887,
+        "smape": 2.0152887480117614
+      }
+    },
+    {
+      "column_name": "irradiance-surface_pop-wtd",
+      "total_samples": 75361,
+      "valid_samples": 75361,
+      "missing_rate": 0.0,
+      "metrics": {
+        "rmse": 23.927352504307308,
+        "mae": 10.529267995382227,
+        "r2": 0.9918820241118895,
+        "mape": 300901001.2714944,
+        "smape": NaN
+      }
+    },
+    {
+      "column_name": "irradiance-toa_pop-wtd",
+      "total_samples": 75361,
+      "valid_samples": 75361,
+      "missing_rate": 0.0,
+      "metrics": {
+        "rmse": 2.492575491342786,
+        "mae": 0.03138872095646236,
+        "r2": 0.9999738290100715,
+        "mape": 31846.727863545653,
+        "smape": NaN
+      }
+    },
+    {
+      "column_name": "precipitation_pop-wtd",
+      "total_samples": 75361,
+      "valid_samples": 75361,
+      "missing_rate": 0.0,
+      "metrics": {
+        "rmse": 0.12428004563686511,
+        "mae": 0.058220769363463855,
+        "r2": 0.7337693313953841,
+        "mape": 7491979.884139487,
+        "smape": NaN
+      }
+    },
+    {
+      "column_name": "temperature_pop-wtd",
+      "total_samples": 75361,
+      "valid_samples": 75358,
+      "missing_rate": 0.003980838895449901,
+      "metrics": {
+        "rmse": 0.3281910149705291,
+        "mae": 0.19308071339472913,
+        "r2": 0.9917613922303087,
+        "mape": 0.7138091598167619,
+        "smape": 0.7120248147889359
+      }
+    },
+    {
+      "column_name": "wind-speed_pop-wtd",
+      "total_samples": 75361,
+      "valid_samples": 75361,
+      "missing_rate": 0.0,
+      "metrics": {
+        "rmse": 0.1905674310673997,
+        "mae": 0.12798419076179993,
+        "r2": 0.9303236138918154,
+        "mape": 7.147236889989389,
+        "smape": 7.1256086649562205
+      }
+    },
+    {
+      "column_name": "humidity_land-wtd",
+      "total_samples": 75361,
+      "valid_samples": 75356,
+      "missing_rate": 0.006634731492416501,
+      "metrics": {
+        "rmse": 0.0005456203593312848,
+        "mae": 0.0002865651043048993,
+        "r2": 0.9624362335651856,
+        "mape": 1.8803663438492244,
+        "smape": 1.880818212118993
+      }
+    },
+    {
+      "column_name": "irradiance-surface_land-wtd",
+      "total_samples": 75361,
+      "valid_samples": 74699,
+      "missing_rate": 0.8784384495959449,
+      "metrics": {
+        "rmse": 19.406219020089257,
+        "mae": 8.566596846008647,
+        "r2": 0.9947960112290388,
+        "mape": 273136217.0104711,
+        "smape": NaN
+      }
+    },
+    {
+      "column_name": "irradiance-toa_land-wtd",
+      "total_samples": 75361,
+      "valid_samples": 75355,
+      "missing_rate": 0.007961677790899803,
+      "metrics": {
+        "rmse": 2.3054460037834814,
+        "mae": 0.030074084002388913,
+        "r2": 0.9999774311038698,
+        "mape": 2654.1207233553546,
+        "smape": NaN
+      }
+    },
+    {
+      "column_name": "precipitation_land-wtd",
+      "total_samples": 75361,
+      "valid_samples": 75361,
+      "missing_rate": 0.0,
+      "metrics": {
+        "rmse": 0.11079355097067425,
+        "mae": 0.05422251562479266,
+        "r2": 0.7571175609710866,
+        "mape": 8651730.44215865,
+        "smape": NaN
+      }
+    },
+    {
+      "column_name": "temperature_land-wtd",
+      "total_samples": 75361,
+      "valid_samples": 75359,
+      "missing_rate": 0.002653892596966601,
+      "metrics": {
+        "rmse": 0.3077871529651746,
+        "mae": 0.1773574861662177,
+        "r2": 0.993789373712514,
+        "mape": 0.6805305187443508,
+        "smape": 0.6795093988261212
+      }
+    },
+    {
+      "column_name": "wind-speed_land-wtd",
+      "total_samples": 75361,
+      "valid_samples": 75360,
+      "missing_rate": 0.0013269462984833004,
+      "metrics": {
+        "rmse": 0.1282922910492878,
+        "mae": 0.0841145966029724,
+        "r2": 0.9536251525848459,
+        "mape": 5.857029417921059,
+        "smape": 5.865104203685569
+      }
+    }
+  ],
+  "metadata": {
+    "data_type": "with_prompt",
+    "step_type": "5",
+    "result_dir": "/home/leizy/24sum/CFRL/data/predicted_results"
+  }
+}

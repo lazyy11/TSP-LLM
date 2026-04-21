@@ -1,0 +1,174 @@
+[Wed Oct  8 06:01:20 PM CST 2025] Processing all datasets...
+[Wed Oct  8 06:01:20 PM CST 2025] Evaluating air-density_land-wtd...
+Evaluation completed for air-density_land-wtd
+RMSE: 0.002473
+MAE: 0.001883
+R²: 0.967363
+MAPE: 0.164495%
+SMAPE: 0.164364%
+[Wed Oct  8 06:01:21 PM CST 2025] ✓ Evaluation completed for air-density_land-wtd
+[Wed Oct  8 06:01:21 PM CST 2025] Evaluating air-density_pop-wtd...
+Evaluation completed for air-density_pop-wtd
+RMSE: 0.002782
+MAE: 0.001922
+R²: 0.958551
+MAPE: 0.166073%
+SMAPE: 0.165919%
+[Wed Oct  8 06:01:22 PM CST 2025] ✓ Evaluation completed for air-density_pop-wtd
+[Wed Oct  8 06:01:22 PM CST 2025] Evaluating cloud-cover_land-wtd...
+Evaluation completed for cloud-cover_land-wtd
+RMSE: 0.067776
+MAE: 0.042338
+R²: 0.681937
+MAPE: 10.903790%
+SMAPE: 11.402787%
+[Wed Oct  8 06:01:23 PM CST 2025] ✓ Evaluation completed for cloud-cover_land-wtd
+[Wed Oct  8 06:01:23 PM CST 2025] Evaluating cloud-cover_pop-wtd...
+Evaluation completed for cloud-cover_pop-wtd
+RMSE: 0.076247
+MAE: 0.050571
+R²: 0.730508
+MAPE: 12.271698%
+SMAPE: 13.278775%
+[Wed Oct  8 06:01:24 PM CST 2025] ✓ Evaluation completed for cloud-cover_pop-wtd
+[Wed Oct  8 06:01:24 PM CST 2025] Evaluating humidity_land-wtd...
+Evaluation completed for humidity_land-wtd
+RMSE: 0.000411
+MAE: 0.000143
+R²: 0.590090
+MAPE: 1.410206%
+SMAPE: 1.411971%
+[Wed Oct  8 06:01:25 PM CST 2025] ✓ Evaluation completed for humidity_land-wtd
+[Wed Oct  8 06:01:25 PM CST 2025] Evaluating humidity_pop-wtd...
+Evaluation completed for humidity_pop-wtd
+RMSE: 0.000378
+MAE: 0.000143
+R²: 0.679410
+MAPE: 1.422012%
+SMAPE: 1.412622%
+[Wed Oct  8 06:01:26 PM CST 2025] ✓ Evaluation completed for humidity_pop-wtd
+[Wed Oct  8 06:01:26 PM CST 2025] Evaluating irradiance-surface_land-wtd...
+/home/leizy/24sum/CFRL/src/main_model/run/evaluate.py:38: RuntimeWarning: invalid value encountered in divide
+  smape = np.mean(np.abs(gt_values - pred_values) / ((np.abs(gt_values) + np.abs(pred_values)) / 2)) * 100
+Evaluation completed for irradiance-surface_land-wtd
+RMSE: 12.241045
+MAE: 6.505974
+R²: 0.998585
+MAPE: 1.771456%
+SMAPE: nan%
+[Wed Oct  8 06:01:27 PM CST 2025] ✓ Evaluation completed for irradiance-surface_land-wtd
+[Wed Oct  8 06:01:27 PM CST 2025] Evaluating irradiance-surface_pop-wtd...
+/home/leizy/24sum/CFRL/src/main_model/run/evaluate.py:38: RuntimeWarning: invalid value encountered in divide
+  smape = np.mean(np.abs(gt_values - pred_values) / ((np.abs(gt_values) + np.abs(pred_values)) / 2)) * 100
+Evaluation completed for irradiance-surface_pop-wtd
+RMSE: 11.238657
+MAE: 5.373883
+R²: 0.998856
+MAPE: 1.603248%
+SMAPE: nan%
+[Wed Oct  8 06:01:27 PM CST 2025] ✓ Evaluation completed for irradiance-surface_pop-wtd
+[Wed Oct  8 06:01:27 PM CST 2025] Evaluating irradiance-toa_land-wtd...
+/home/leizy/24sum/CFRL/src/main_model/run/evaluate.py:38: RuntimeWarning: invalid value encountered in divide
+  smape = np.mean(np.abs(gt_values - pred_values) / ((np.abs(gt_values) + np.abs(pred_values)) / 2)) * 100
+Evaluation completed for irradiance-toa_land-wtd
+RMSE: 72.234908
+MAE: 9.300182
+R²: 0.973016
+MAPE: 1.507325%
+SMAPE: nan%
+[Wed Oct  8 06:01:28 PM CST 2025] ✓ Evaluation completed for irradiance-toa_land-wtd
+[Wed Oct  8 06:01:28 PM CST 2025] Evaluating irradiance-toa_pop-wtd...
+/home/leizy/24sum/CFRL/src/main_model/run/evaluate.py:38: RuntimeWarning: invalid value encountered in divide
+  smape = np.mean(np.abs(gt_values - pred_values) / ((np.abs(gt_values) + np.abs(pred_values)) / 2)) * 100
+Evaluation completed for irradiance-toa_pop-wtd
+RMSE: 2.022106
+MAE: 1.146416
+R²: 0.999979
+MAPE: 0.382583%
+SMAPE: nan%
+[Wed Oct  8 06:01:29 PM CST 2025] ✓ Evaluation completed for irradiance-toa_pop-wtd
+[Wed Oct  8 06:01:29 PM CST 2025] Evaluating precipitation_land-wtd...
+/home/leizy/24sum/CFRL/src/main_model/run/evaluate.py:38: RuntimeWarning: invalid value encountered in divide
+  smape = np.mean(np.abs(gt_values - pred_values) / ((np.abs(gt_values) + np.abs(pred_values)) / 2)) * 100
+Evaluation completed for precipitation_land-wtd
+RMSE: 0.000255
+MAE: 0.000065
+R²: 0.703846
+MAPE: 25974029.870130%
+SMAPE: nan%
+[Wed Oct  8 06:01:30 PM CST 2025] ✓ Evaluation completed for precipitation_land-wtd
+[Wed Oct  8 06:01:30 PM CST 2025] Evaluating precipitation_pop-wtd...
+/home/leizy/24sum/CFRL/src/main_model/run/evaluate.py:38: RuntimeWarning: invalid value encountered in divide
+  smape = np.mean(np.abs(gt_values - pred_values) / ((np.abs(gt_values) + np.abs(pred_values)) / 2)) * 100
+Evaluation completed for precipitation_pop-wtd
+RMSE: 0.000342
+MAE: 0.000117
+R²: 0.692000
+MAPE: 38961046.103896%
+SMAPE: nan%
+[Wed Oct  8 06:01:30 PM CST 2025] ✓ Evaluation completed for precipitation_pop-wtd
+[Wed Oct  8 06:01:30 PM CST 2025] Evaluating temperature_land-wtd...
+Evaluation completed for temperature_land-wtd
+RMSE: 0.754852
+MAE: 0.526091
+R²: 0.972290
+MAPE: 2.168981%
+SMAPE: 2.148596%
+[Wed Oct  8 06:01:31 PM CST 2025] ✓ Evaluation completed for temperature_land-wtd
+[Wed Oct  8 06:01:31 PM CST 2025] Evaluating temperature_pop-wtd...
+Evaluation completed for temperature_pop-wtd
+RMSE: 0.619049
+MAE: 0.472857
+R²: 0.981082
+MAPE: 1.815281%
+SMAPE: 1.799385%
+[Wed Oct  8 06:01:32 PM CST 2025] ✓ Evaluation completed for temperature_pop-wtd
+[Wed Oct  8 06:01:32 PM CST 2025] Evaluating wind-speed_land-wtd...
+Evaluation completed for wind-speed_land-wtd
+RMSE: 0.218495
+MAE: 0.140026
+R²: 0.746991
+MAPE: 9.081399%
+SMAPE: 8.615607%
+[Wed Oct  8 06:01:33 PM CST 2025] ✓ Evaluation completed for wind-speed_land-wtd
+[Wed Oct  8 06:01:33 PM CST 2025] Evaluating wind-speed_pop-wtd...
+Evaluation completed for wind-speed_pop-wtd
+RMSE: 0.302801
+MAE: 0.206117
+R²: 0.769790
+MAPE: 10.768772%
+SMAPE: 10.577187%
+[Wed Oct  8 06:01:34 PM CST 2025] ✓ Evaluation completed for wind-speed_pop-wtd
+
+==========================================
+Individual Evaluation Summary
+==========================================
+Total datasets: 16
+Successful: 16
+Failed: 0
+
+[Wed Oct  8 06:01:34 PM CST 2025] Generating summary report...
+Loading metrics for with_prompt_510, 1_step...
+
+Summary Report for with_prompt_510, 1_step:
+Total columns processed: 16
+Successful columns: 16
+
+RMSE - Mean: 6.236411, Std: 17.458771
+MAE - Mean: 1.485545, Std: 2.786925
+R² - Mean: 0.840268, Std: 0.145900
+MAPE - Mean: 4058445.713209%, Std: 10980316.580966%
+SMAPE - Mean: 5.097721%, Std: 4.944546%
+
+Summary saved to: /home/leizy/24sum/CFRL/logs/evaluation/summary_with_prompt_510_1_step.json
+[Wed Oct  8 06:01:34 PM CST 2025] Generating summary CSV...
+Error: Directory /home/leizy/24sum/CFRL/data/predicted_results/with_prompt_510/TH/1_step does not exist
+
+==========================================
+Evaluation Completed Successfully!
+==========================================
+Results:
+  Individual metrics: /home/leizy/24sum/CFRL/data/train_together_results/predicted_results/with_prompt_510/TH/1_step/*/metrics.json
+  Summary JSON: /home/leizy/24sum/CFRL/logs/evaluation/summary_with_prompt_510_1_step.json
+  Summary CSV: /home/leizy/24sum/CFRL/data/train_together_results/predicted_results/with_prompt_510/TH/1_step_summary.csv
+  Log file: /home/leizy/24sum/CFRL/logs/evaluation/with_prompt_510_1_step_20251008_180120.log

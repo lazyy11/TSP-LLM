@@ -1,0 +1,13 @@
+{
+  "column_name": "humidity_pop-wtd",
+  "total_samples": 75365,
+  "valid_samples": 75365,
+  "missing_rate": 0.0,
+  "metrics": {
+    "rmse": 0.0004125992901336621,
+    "mae": 0.0001675313474424468,
+    "r2": 0.9754735558879447,
+    "mape": 1.0382664121250373,
+    "smape": 1.0347278028446596
+  }
+}

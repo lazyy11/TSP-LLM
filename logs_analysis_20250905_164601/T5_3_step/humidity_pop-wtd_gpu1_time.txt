@@ -1,0 +1,6 @@
+Start time: Tue Aug  5 10:37:37 PM CST 2025
+Training end time: Wed Aug  6 06:55:52 AM CST 2025
+Training duration: 29895 seconds
+Total end time: Wed Aug  6 07:23:09 AM CST 2025
+Total duration: 31532 seconds
+Testing duration: 1637 seconds

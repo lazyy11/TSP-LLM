@@ -1,0 +1,241 @@
+[Tue Aug 12 10:22:04 PM CST 2025] Processing column: humidity_land-wtd
+[Tue Aug 12 10:22:04 PM CST 2025] Assigning GPU 0 to humidity_land-wtd
+[Tue Aug 12 10:22:04 PM CST 2025] Starting training for humidity_land-wtd on GPU 0
+[Tue Aug 12 10:22:04 PM CST 2025] Training model for humidity_land-wtd...
+2025/08/12 22:22:07 - WARNING - __main__ - Process rank: 0, device: cuda:0, n_gpu: 1, distributed training: True, 16-bits training: False
+Traceback (most recent call last):
+  File "/home/leizy/24sum/CFRL/src/main_model/run/train.py", line 528, in <module>
+    main()
+  File "/home/leizy/24sum/CFRL/src/main_model/run/train.py", line 261, in main
+    raw_datasets = load_dataset(ext, data_files=data_files, cache_dir=model_args.cache_dir)
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/datasets/load.py", line 1675, in load_dataset
+    builder_instance = load_dataset_builder(
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/datasets/load.py", line 1512, in load_dataset_builder
+    dataset_module = dataset_module_factory(
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/datasets/load.py", line 1119, in dataset_module_factory
+    ).get_module()
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/datasets/load.py", line 774, in get_module
+    data_files = DataFilesDict.from_local_or_remote(patterns, use_auth_token=self.downnload_config.use_auth_token)
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/datasets/data_files.py", line 578, in from_local_or_remote
+    DataFilesList.from_local_or_remote(
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/datasets/data_files.py", line 546, in from_local_or_remote
+    data_files = resolve_patterns_locally_or_by_urls(base_path, patterns, allowed_extensions)
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/datasets/data_files.py", line 196, in resolve_patterns_locally_or_by_urls
+    for path in _resolve_single_pattern_locally(base_path, pattern, allowed_extensions):
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/datasets/data_files.py", line 146, in _resolve_single_pattern_locally
+    raise FileNotFoundError(error_msg)
+FileNotFoundError: Unable to find '/home/leizy/24sum/humidity_land-wtd/train.json' at /home/leizy/24sum
+Training completed in 5 seconds
+[Tue Aug 12 10:22:09 PM CST 2025] Starting testing for humidity_land-wtd...
+[Tue Aug 12 10:22:09 PM CST 2025] Processing column: irradiance-surface_land-wtd
+[Tue Aug 12 10:22:09 PM CST 2025] Assigning GPU 1 to irradiance-surface_land-wtd
+[Tue Aug 12 10:22:09 PM CST 2025] Starting training for irradiance-surface_land-wtd on GPU 1
+[Tue Aug 12 10:22:09 PM CST 2025] Training model for irradiance-surface_land-wtd...
+usage: test.py [-h] [-t TEST_FILE] [-m MODEL_PATH] [--model_name MODEL_NAME]
+               [-s SAVE_PATH] [-b BATCH_SIZE] [-d DATASET_NAME]
+test.py: error: unrecognized arguments: --model_name_or_path /home/leizy/24sum/CFRL/src/main_model/trained_model/with_prompt/T5_1_step/humidity_land-wtd --output_file /home/leizy/24sum/CFRL/data/predicted_results/with_prompt/TH/1_step/humidity_land-wtd/predicted.txt --per_device_eval_batch_size=16
+[Tue Aug 12 10:22:11 PM CST 2025] Starting evaluation for humidity_land-wtd...
+Traceback (most recent call last):
+  File "/home/leizy/24sum/CFRL/src/main_model/run/evaluate.py", line 110, in <module>
+    main()
+  File "/home/leizy/24sum/CFRL/src/main_model/run/evaluate.py", line 58, in main
+    with open(args.gt_file, 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'humidity_land-wtd/test_y_prompt.txt'
+[Tue Aug 12 10:22:12 PM CST 2025] Task completed for humidity_land-wtd on GPU 0
+2025/08/12 22:22:13 - WARNING - __main__ - Process rank: 0, device: cuda:0, n_gpu: 1, distributed training: True, 16-bits training: False
+Traceback (most recent call last):
+  File "/home/leizy/24sum/CFRL/src/main_model/run/train.py", line 528, in <module>
+    main()
+  File "/home/leizy/24sum/CFRL/src/main_model/run/train.py", line 261, in main
+    raw_datasets = load_dataset(ext, data_files=data_files, cache_dir=model_args.cache_dir)
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/datasets/load.py", line 1675, in load_dataset
+    builder_instance = load_dataset_builder(
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/datasets/load.py", line 1512, in load_dataset_builder
+    dataset_module = dataset_module_factory(
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/datasets/load.py", line 1119, in dataset_module_factory
+    ).get_module()
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/datasets/load.py", line 774, in get_module
+    data_files = DataFilesDict.from_local_or_remote(patterns, use_auth_token=self.downnload_config.use_auth_token)
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/datasets/data_files.py", line 578, in from_local_or_remote
+    DataFilesList.from_local_or_remote(
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/datasets/data_files.py", line 546, in from_local_or_remote
+    data_files = resolve_patterns_locally_or_by_urls(base_path, patterns, allowed_extensions)
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/datasets/data_files.py", line 196, in resolve_patterns_locally_or_by_urls
+    for path in _resolve_single_pattern_locally(base_path, pattern, allowed_extensions):
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/datasets/data_files.py", line 146, in _resolve_single_pattern_locally
+    raise FileNotFoundError(error_msg)
+FileNotFoundError: Unable to find '/home/leizy/24sum/irradiance-surface_land-wtd/train.json' at /home/leizy/24sum
+[Tue Aug 12 10:22:14 PM CST 2025] Processing column: irradiance-toa_land-wtd
+[Tue Aug 12 10:22:14 PM CST 2025] Assigning GPU 0 to irradiance-toa_land-wtd
+[Tue Aug 12 10:22:14 PM CST 2025] Starting training for irradiance-toa_land-wtd on GPU 0
+[Tue Aug 12 10:22:14 PM CST 2025] Training model for irradiance-toa_land-wtd...
+Training completed in 6 seconds
+[Tue Aug 12 10:22:15 PM CST 2025] Starting testing for irradiance-surface_land-wtd...
+usage: test.py [-h] [-t TEST_FILE] [-m MODEL_PATH] [--model_name MODEL_NAME]
+               [-s SAVE_PATH] [-b BATCH_SIZE] [-d DATASET_NAME]
+test.py: error: unrecognized arguments: --model_name_or_path /home/leizy/24sum/CFRL/src/main_model/trained_model/with_prompt/T5_1_step/irradiance-surface_land-wtd --output_file /home/leizy/24sum/CFRL/data/predicted_results/with_prompt/TH/1_step/irradiance-surface_land-wtd/predicted.txt --per_device_eval_batch_size=16
+[Tue Aug 12 10:22:17 PM CST 2025] Starting evaluation for irradiance-surface_land-wtd...
+Traceback (most recent call last):
+  File "/home/leizy/24sum/CFRL/src/main_model/run/evaluate.py", line 110, in <module>
+    main()
+  File "/home/leizy/24sum/CFRL/src/main_model/run/evaluate.py", line 58, in main
+    with open(args.gt_file, 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'irradiance-surface_land-wtd/test_y_prompt.txt'
+[Tue Aug 12 10:22:18 PM CST 2025] Task completed for irradiance-surface_land-wtd on GPU 1
+2025/08/12 22:22:18 - WARNING - __main__ - Process rank: 0, device: cuda:0, n_gpu: 1, distributed training: True, 16-bits training: False
+Traceback (most recent call last):
+  File "/home/leizy/24sum/CFRL/src/main_model/run/train.py", line 528, in <module>
+    main()
+  File "/home/leizy/24sum/CFRL/src/main_model/run/train.py", line 261, in main
+    raw_datasets = load_dataset(ext, data_files=data_files, cache_dir=model_args.cache_dir)
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/datasets/load.py", line 1675, in load_dataset
+    builder_instance = load_dataset_builder(
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/datasets/load.py", line 1512, in load_dataset_builder
+    dataset_module = dataset_module_factory(
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/datasets/load.py", line 1119, in dataset_module_factory
+    ).get_module()
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/datasets/load.py", line 774, in get_module
+    data_files = DataFilesDict.from_local_or_remote(patterns, use_auth_token=self.downnload_config.use_auth_token)
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/datasets/data_files.py", line 578, in from_local_or_remote
+    DataFilesList.from_local_or_remote(
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/datasets/data_files.py", line 546, in from_local_or_remote
+    data_files = resolve_patterns_locally_or_by_urls(base_path, patterns, allowed_extensions)
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/datasets/data_files.py", line 196, in resolve_patterns_locally_or_by_urls
+    for path in _resolve_single_pattern_locally(base_path, pattern, allowed_extensions):
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/datasets/data_files.py", line 146, in _resolve_single_pattern_locally
+    raise FileNotFoundError(error_msg)
+FileNotFoundError: Unable to find '/home/leizy/24sum/irradiance-toa_land-wtd/train.json' at /home/leizy/24sum
+[Tue Aug 12 10:22:19 PM CST 2025] Processing column: precipitation_land-wtd
+[Tue Aug 12 10:22:19 PM CST 2025] Assigning GPU 1 to precipitation_land-wtd
+[Tue Aug 12 10:22:19 PM CST 2025] Starting training for precipitation_land-wtd on GPU 1
+[Tue Aug 12 10:22:19 PM CST 2025] Training model for precipitation_land-wtd...
+Training completed in 6 seconds
+[Tue Aug 12 10:22:20 PM CST 2025] Starting testing for irradiance-toa_land-wtd...
+usage: test.py [-h] [-t TEST_FILE] [-m MODEL_PATH] [--model_name MODEL_NAME]
+               [-s SAVE_PATH] [-b BATCH_SIZE] [-d DATASET_NAME]
+test.py: error: unrecognized arguments: --model_name_or_path /home/leizy/24sum/CFRL/src/main_model/trained_model/with_prompt/T5_1_step/irradiance-toa_land-wtd --output_file /home/leizy/24sum/CFRL/data/predicted_results/with_prompt/TH/1_step/irradiance-toa_land-wtd/predicted.txt --per_device_eval_batch_size=16
+[Tue Aug 12 10:22:22 PM CST 2025] Starting evaluation for irradiance-toa_land-wtd...
+Traceback (most recent call last):
+  File "/home/leizy/24sum/CFRL/src/main_model/run/evaluate.py", line 110, in <module>
+    main()
+  File "/home/leizy/24sum/CFRL/src/main_model/run/evaluate.py", line 58, in main
+    with open(args.gt_file, 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'irradiance-toa_land-wtd/test_y_prompt.txt'
+[Tue Aug 12 10:22:23 PM CST 2025] Task completed for irradiance-toa_land-wtd on GPU 0
+2025/08/12 22:22:23 - WARNING - __main__ - Process rank: 0, device: cuda:0, n_gpu: 1, distributed training: True, 16-bits training: False
+Traceback (most recent call last):
+  File "/home/leizy/24sum/CFRL/src/main_model/run/train.py", line 528, in <module>
+    main()
+  File "/home/leizy/24sum/CFRL/src/main_model/run/train.py", line 261, in main
+    raw_datasets = load_dataset(ext, data_files=data_files, cache_dir=model_args.cache_dir)
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/datasets/load.py", line 1675, in load_dataset
+    builder_instance = load_dataset_builder(
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/datasets/load.py", line 1512, in load_dataset_builder
+    dataset_module = dataset_module_factory(
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/datasets/load.py", line 1119, in dataset_module_factory
+    ).get_module()
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/datasets/load.py", line 774, in get_module
+    data_files = DataFilesDict.from_local_or_remote(patterns, use_auth_token=self.downnload_config.use_auth_token)
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/datasets/data_files.py", line 578, in from_local_or_remote
+    DataFilesList.from_local_or_remote(
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/datasets/data_files.py", line 546, in from_local_or_remote
+    data_files = resolve_patterns_locally_or_by_urls(base_path, patterns, allowed_extensions)
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/datasets/data_files.py", line 196, in resolve_patterns_locally_or_by_urls
+    for path in _resolve_single_pattern_locally(base_path, pattern, allowed_extensions):
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/datasets/data_files.py", line 146, in _resolve_single_pattern_locally
+    raise FileNotFoundError(error_msg)
+FileNotFoundError: Unable to find '/home/leizy/24sum/precipitation_land-wtd/train.json' at /home/leizy/24sum
+[Tue Aug 12 10:22:24 PM CST 2025] Processing column: temperature_land-wtd
+[Tue Aug 12 10:22:24 PM CST 2025] Assigning GPU 0 to temperature_land-wtd
+[Tue Aug 12 10:22:24 PM CST 2025] Starting training for temperature_land-wtd on GPU 0
+[Tue Aug 12 10:22:24 PM CST 2025] Training model for temperature_land-wtd...
+Training completed in 6 seconds
+[Tue Aug 12 10:22:25 PM CST 2025] Starting testing for precipitation_land-wtd...
+usage: test.py [-h] [-t TEST_FILE] [-m MODEL_PATH] [--model_name MODEL_NAME]
+               [-s SAVE_PATH] [-b BATCH_SIZE] [-d DATASET_NAME]
+test.py: error: unrecognized arguments: --model_name_or_path /home/leizy/24sum/CFRL/src/main_model/trained_model/with_prompt/T5_1_step/precipitation_land-wtd --output_file /home/leizy/24sum/CFRL/data/predicted_results/with_prompt/TH/1_step/precipitation_land-wtd/predicted.txt --per_device_eval_batch_size=16
+[Tue Aug 12 10:22:27 PM CST 2025] Starting evaluation for precipitation_land-wtd...
+2025/08/12 22:22:28 - WARNING - __main__ - Process rank: 0, device: cuda:0, n_gpu: 1, distributed training: True, 16-bits training: False
+Traceback (most recent call last):
+  File "/home/leizy/24sum/CFRL/src/main_model/run/evaluate.py", line 110, in <module>
+    main()
+  File "/home/leizy/24sum/CFRL/src/main_model/run/evaluate.py", line 58, in main
+    with open(args.gt_file, 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'precipitation_land-wtd/test_y_prompt.txt'
+[Tue Aug 12 10:22:28 PM CST 2025] Task completed for precipitation_land-wtd on GPU 1
+Traceback (most recent call last):
+  File "/home/leizy/24sum/CFRL/src/main_model/run/train.py", line 528, in <module>
+    main()
+  File "/home/leizy/24sum/CFRL/src/main_model/run/train.py", line 261, in main
+    raw_datasets = load_dataset(ext, data_files=data_files, cache_dir=model_args.cache_dir)
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/datasets/load.py", line 1675, in load_dataset
+    builder_instance = load_dataset_builder(
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/datasets/load.py", line 1512, in load_dataset_builder
+    dataset_module = dataset_module_factory(
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/datasets/load.py", line 1119, in dataset_module_factory
+    ).get_module()
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/datasets/load.py", line 774, in get_module
+    data_files = DataFilesDict.from_local_or_remote(patterns, use_auth_token=self.downnload_config.use_auth_token)
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/datasets/data_files.py", line 578, in from_local_or_remote
+    DataFilesList.from_local_or_remote(
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/datasets/data_files.py", line 546, in from_local_or_remote
+    data_files = resolve_patterns_locally_or_by_urls(base_path, patterns, allowed_extensions)
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/datasets/data_files.py", line 196, in resolve_patterns_locally_or_by_urls
+    for path in _resolve_single_pattern_locally(base_path, pattern, allowed_extensions):
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/datasets/data_files.py", line 146, in _resolve_single_pattern_locally
+    raise FileNotFoundError(error_msg)
+FileNotFoundError: Unable to find '/home/leizy/24sum/temperature_land-wtd/train.json' at /home/leizy/24sum
+[Tue Aug 12 10:22:29 PM CST 2025] Processing column: wind-speed_land-wtd
+[Tue Aug 12 10:22:29 PM CST 2025] Assigning GPU 1 to wind-speed_land-wtd
+[Tue Aug 12 10:22:29 PM CST 2025] Starting training for wind-speed_land-wtd on GPU 1
+[Tue Aug 12 10:22:29 PM CST 2025] Training model for wind-speed_land-wtd...
+Training completed in 6 seconds
+[Tue Aug 12 10:22:30 PM CST 2025] Starting testing for temperature_land-wtd...
+usage: test.py [-h] [-t TEST_FILE] [-m MODEL_PATH] [--model_name MODEL_NAME]
+               [-s SAVE_PATH] [-b BATCH_SIZE] [-d DATASET_NAME]
+test.py: error: unrecognized arguments: --model_name_or_path /home/leizy/24sum/CFRL/src/main_model/trained_model/with_prompt/T5_1_step/temperature_land-wtd --output_file /home/leizy/24sum/CFRL/data/predicted_results/with_prompt/TH/1_step/temperature_land-wtd/predicted.txt --per_device_eval_batch_size=16
+[Tue Aug 12 10:22:32 PM CST 2025] Starting evaluation for temperature_land-wtd...
+2025/08/12 22:22:32 - WARNING - __main__ - Process rank: 0, device: cuda:0, n_gpu: 1, distributed training: True, 16-bits training: False
+Traceback (most recent call last):
+  File "/home/leizy/24sum/CFRL/src/main_model/run/evaluate.py", line 110, in <module>
+    main()
+  File "/home/leizy/24sum/CFRL/src/main_model/run/evaluate.py", line 58, in main
+    with open(args.gt_file, 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'temperature_land-wtd/test_y_prompt.txt'
+[Tue Aug 12 10:22:33 PM CST 2025] Task completed for temperature_land-wtd on GPU 0
+Traceback (most recent call last):
+  File "/home/leizy/24sum/CFRL/src/main_model/run/train.py", line 528, in <module>
+    main()
+  File "/home/leizy/24sum/CFRL/src/main_model/run/train.py", line 261, in main
+    raw_datasets = load_dataset(ext, data_files=data_files, cache_dir=model_args.cache_dir)
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/datasets/load.py", line 1675, in load_dataset
+    builder_instance = load_dataset_builder(
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/datasets/load.py", line 1512, in load_dataset_builder
+    dataset_module = dataset_module_factory(
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/datasets/load.py", line 1119, in dataset_module_factory
+    ).get_module()
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/datasets/load.py", line 774, in get_module
+    data_files = DataFilesDict.from_local_or_remote(patterns, use_auth_token=self.downnload_config.use_auth_token)
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/datasets/data_files.py", line 578, in from_local_or_remote
+    DataFilesList.from_local_or_remote(
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/datasets/data_files.py", line 546, in from_local_or_remote
+    data_files = resolve_patterns_locally_or_by_urls(base_path, patterns, allowed_extensions)
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/datasets/data_files.py", line 196, in resolve_patterns_locally_or_by_urls
+    for path in _resolve_single_pattern_locally(base_path, pattern, allowed_extensions):
+  File "/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/datasets/data_files.py", line 146, in _resolve_single_pattern_locally
+    raise FileNotFoundError(error_msg)
+FileNotFoundError: Unable to find '/home/leizy/24sum/wind-speed_land-wtd/train.json' at /home/leizy/24sum
+Training completed in 6 seconds
+[Tue Aug 12 10:22:35 PM CST 2025] Starting testing for wind-speed_land-wtd...
+usage: test.py [-h] [-t TEST_FILE] [-m MODEL_PATH] [--model_name MODEL_NAME]
+               [-s SAVE_PATH] [-b BATCH_SIZE] [-d DATASET_NAME]
+test.py: error: unrecognized arguments: --model_name_or_path /home/leizy/24sum/CFRL/src/main_model/trained_model/with_prompt/T5_1_step/wind-speed_land-wtd --output_file /home/leizy/24sum/CFRL/data/predicted_results/with_prompt/TH/1_step/wind-speed_land-wtd/predicted.txt --per_device_eval_batch_size=16
+[Tue Aug 12 10:22:37 PM CST 2025] Starting evaluation for wind-speed_land-wtd...
+Traceback (most recent call last):
+  File "/home/leizy/24sum/CFRL/src/main_model/run/evaluate.py", line 110, in <module>
+    main()
+  File "/home/leizy/24sum/CFRL/src/main_model/run/evaluate.py", line 58, in main
+    with open(args.gt_file, 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'wind-speed_land-wtd/test_y_prompt.txt'
+[Tue Aug 12 10:22:38 PM CST 2025] Task completed for wind-speed_land-wtd on GPU 1
+[Tue Aug 12 10:22:38 PM CST 2025] All tasks completed for with_prompt 1_step

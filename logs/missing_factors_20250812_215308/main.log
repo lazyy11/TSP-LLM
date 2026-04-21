@@ -1,0 +1,7 @@
+[2025-08-12 21:53:08] === 开始补跑缺失气候因子 ===
+[2025-08-12 21:53:08] 日志目录: /home/leizy/24sum/CFRL/logs/missing_factors_20250812_215308
+[2025-08-12 21:53:08] 缺失因子数量: 6
+[2025-08-12 21:53:08] 缺失因子列表: humidity_land-wtd irradiance-surface_land-wtd irradiance-toa_land-wtd precipitation_land-wtd temperature_land-wtd wind-speed_land-wtd
+[2025-08-12 21:53:08] === 开始处理 with_prompt 1_step ===
+[2025-08-12 21:53:08] with_prompt 1_step 缺失因子: humidity_land-wtd irradiance-surface_land-wtd irradiance-toa_land-wtd precipitation_land-wtd temperature_land-wtd wind-speed_land-wtd
+[2025-08-12 21:53:08] 运行训练脚本，日志: /home/leizy/24sum/CFRL/logs/missing_factors_20250812_215308/with_prompt_1_step.log

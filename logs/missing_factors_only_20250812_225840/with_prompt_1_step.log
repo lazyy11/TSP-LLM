@@ -1,0 +1,68 @@
+Found 4 GPUs available
+[Tue Aug 12 10:58:40 PM CST 2025] Starting multi-GPU training and testing for with_prompt, 1_step
+Found 16 columns to process
+[Tue Aug 12 10:58:40 PM CST 2025] Processing column: air-density_land-wtd
+[Tue Aug 12 10:58:40 PM CST 2025] Assigning GPU 0 to air-density_land-wtd
+[Tue Aug 12 10:58:40 PM CST 2025] Starting training for air-density_land-wtd on GPU 0
+[Tue Aug 12 10:58:41 PM CST 2025] Training model for air-density_land-wtd...
+2025/08/12 22:58:44 - WARNING - __main__ - Process rank: 0, device: cuda:0, n_gpu: 1, distributed training: True, 16-bits training: False
+2025/08/12 22:58:45 - WARNING - datasets.builder - Using custom data configuration default-9848210bc00b4653
+2025/08/12 22:58:45 - WARNING - datasets.builder - Reusing dataset json (/home/leizy/.cache/huggingface/datasets/json/default-9848210bc00b4653/0.0.0/ac0ca5f5289a6cf108e706efcf040422dbbfa8e658dee6a819f20d76bb84d26b)
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 109.48it/s]
+/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/transformers/models/auto/configuration_auto.py:1002: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/transformers/models/auto/tokenization_auto.py:809: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+[Tue Aug 12 10:58:46 PM CST 2025] Processing column: air-density_pop-wtd
+[Tue Aug 12 10:58:46 PM CST 2025] Assigning GPU 1 to air-density_pop-wtd
+[Tue Aug 12 10:58:46 PM CST 2025] Starting training for air-density_pop-wtd on GPU 1
+[Tue Aug 12 10:58:46 PM CST 2025] Training model for air-density_pop-wtd...
+/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+2025/08/12 22:58:46 - WARNING - datasets.fingerprint - Parameter 'function'=<function main.<locals>.preprocess_function at 0x716548b1d3f0> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
+2025/08/12 22:58:46 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /home/leizy/.cache/huggingface/datasets/json/default-9848210bc00b4653/0.0.0/ac0ca5f5289a6cf108e706efcf040422dbbfa8e658dee6a819f20d76bb84d26b/cache-f945e4b665c1d4b4.arrow
+2025/08/12 22:58:49 - WARNING - __main__ - Process rank: 0, device: cuda:0, n_gpu: 1, distributed training: True, 16-bits training: False
+2025/08/12 22:58:50 - WARNING - datasets.builder - Using custom data configuration default-faf0c94f48dcfa2d
+2025/08/12 22:58:50 - WARNING - datasets.builder - Reusing dataset json (/home/leizy/.cache/huggingface/datasets/json/default-faf0c94f48dcfa2d/0.0.0/ac0ca5f5289a6cf108e706efcf040422dbbfa8e658dee6a819f20d76bb84d26b)
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 107.81it/s]
+/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/transformers/models/auto/configuration_auto.py:1002: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/transformers/models/auto/tokenization_auto.py:809: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+[Tue Aug 12 10:58:51 PM CST 2025] Processing column: cloud-cover_land-wtd
+[Tue Aug 12 10:58:51 PM CST 2025] Assigning GPU 2 to cloud-cover_land-wtd
+[Tue Aug 12 10:58:51 PM CST 2025] Starting training for cloud-cover_land-wtd on GPU 2
+[Tue Aug 12 10:58:51 PM CST 2025] Training model for cloud-cover_land-wtd...
+/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+2025/08/12 22:58:51 - WARNING - datasets.fingerprint - Parameter 'function'=<function main.<locals>.preprocess_function at 0x742e8472d3f0> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
+2025/08/12 22:58:51 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /home/leizy/.cache/huggingface/datasets/json/default-faf0c94f48dcfa2d/0.0.0/ac0ca5f5289a6cf108e706efcf040422dbbfa8e658dee6a819f20d76bb84d26b/cache-f945e4b665c1d4b4.arrow
+2025/08/12 22:58:54 - WARNING - __main__ - Process rank: 0, device: cuda:0, n_gpu: 1, distributed training: True, 16-bits training: False
+2025/08/12 22:58:55 - WARNING - datasets.builder - Using custom data configuration default-ad3ed96c3daad39a
+2025/08/12 22:58:55 - WARNING - datasets.builder - Reusing dataset json (/home/leizy/.cache/huggingface/datasets/json/default-ad3ed96c3daad39a/0.0.0/ac0ca5f5289a6cf108e706efcf040422dbbfa8e658dee6a819f20d76bb84d26b)
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 103.07it/s]
+/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/transformers/models/auto/configuration_auto.py:1002: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/transformers/models/auto/tokenization_auto.py:809: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+2025/08/12 22:58:56 - WARNING - datasets.fingerprint - Parameter 'function'=<function main.<locals>.preprocess_function at 0x7202e011d3f0> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
+2025/08/12 22:58:56 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /home/leizy/.cache/huggingface/datasets/json/default-ad3ed96c3daad39a/0.0.0/ac0ca5f5289a6cf108e706efcf040422dbbfa8e658dee6a819f20d76bb84d26b/cache-f945e4b665c1d4b4.arrow
+[Tue Aug 12 10:58:56 PM CST 2025] Processing column: cloud-cover_pop-wtd
+[Tue Aug 12 10:58:56 PM CST 2025] Assigning GPU 3 to cloud-cover_pop-wtd
+[Tue Aug 12 10:58:56 PM CST 2025] Starting training for cloud-cover_pop-wtd on GPU 3
+[Tue Aug 12 10:58:56 PM CST 2025] Training model for cloud-cover_pop-wtd...
+2025/08/12 22:58:59 - WARNING - __main__ - Process rank: 0, device: cuda:0, n_gpu: 1, distributed training: True, 16-bits training: False
+2025/08/12 22:59:00 - WARNING - datasets.builder - Using custom data configuration default-f1300906476a431e
+2025/08/12 22:59:00 - WARNING - datasets.builder - Reusing dataset json (/home/leizy/.cache/huggingface/datasets/json/default-f1300906476a431e/0.0.0/ac0ca5f5289a6cf108e706efcf040422dbbfa8e658dee6a819f20d76bb84d26b)
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 117.68it/s]
+/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/transformers/models/auto/configuration_auto.py:1002: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/transformers/models/auto/tokenization_auto.py:809: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+[Tue Aug 12 10:59:01 PM CST 2025] Processing column: humidity_land-wtd
+2025/08/12 22:59:01 - WARNING - datasets.fingerprint - Parameter 'function'=<function main.<locals>.preprocess_function at 0x725ab4b1d3f0> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
+2025/08/12 22:59:01 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /home/leizy/.cache/huggingface/datasets/json/default-f1300906476a431e/0.0.0/ac0ca5f5289a6cf108e706efcf040422dbbfa8e658dee6a819f20d76bb84d26b/cache-f945e4b665c1d4b4.arrow

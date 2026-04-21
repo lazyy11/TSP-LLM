@@ -1,0 +1,6 @@
+Results for irradiance-toa_pop-wtd:
+MAE: 0.5117648377894245
+RMSE: 4.840839192581828
+SMAPE: 87.06203344297091%
+R^2: 0.9999012875221176
+missing_rate: 0.0%

@@ -1,0 +1,13 @@
+{
+  "column_name": "wind-speed_land-wtd",
+  "total_samples": 75361,
+  "valid_samples": 75359,
+  "missing_rate": 0.002653892596966601,
+  "metrics": {
+    "rmse": 0.1297045928446947,
+    "mae": 0.08476057007125892,
+    "r2": 0.9526016600531092,
+    "mape": 5.926690828334288,
+    "smape": 5.904354927206772
+  }
+}

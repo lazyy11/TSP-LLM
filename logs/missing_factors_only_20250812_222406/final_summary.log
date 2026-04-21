@@ -1,0 +1,216 @@
+usage: generate_summary.py [-h] --data_type {with_prompt,no_prompt}
+                           --step_type {1,3,5} --result_dir RESULT_DIR
+                           --output_file OUTPUT_FILE
+generate_summary.py: error: the following arguments are required: --data_type, --step_type
+Found 16 climate factors in /home/leizy/24sum/CFRL/data/predicted_results/with_prompt/TH/1_step
+Processed air-density_land-wtd
+Processed air-density_pop-wtd
+Processed cloud-cover_land-wtd
+Processed cloud-cover_pop-wtd
+Warning: Metrics file not found for humidity_land-wtd
+Processed humidity_pop-wtd
+Warning: Metrics file not found for irradiance-surface_land-wtd
+Processed irradiance-surface_pop-wtd
+Warning: Metrics file not found for irradiance-toa_land-wtd
+Processed irradiance-toa_pop-wtd
+Warning: Metrics file not found for precipitation_land-wtd
+Processed precipitation_pop-wtd
+Warning: Metrics file not found for temperature_land-wtd
+Processed temperature_pop-wtd
+Warning: Metrics file not found for wind-speed_land-wtd
+Processed wind-speed_pop-wtd
+Summary CSV saved to: /home/leizy/24sum/CFRL/data/predicted_results/with_prompt/TH/1_step_summary.csv
+Total climate factors processed: 10
+
+Summary Statistics:
+==================================================
+Average MAE: 0.418813
+Average RMSE: 1.151759
+Average SMAPE: 1.163435%
+Average R²: 0.978739
+Average Missing Rate: 0.000000%
+usage: generate_summary.py [-h] --data_type {with_prompt,no_prompt}
+                           --step_type {1,3,5} --result_dir RESULT_DIR
+                           --output_file OUTPUT_FILE
+generate_summary.py: error: the following arguments are required: --data_type, --step_type
+Found 16 climate factors in /home/leizy/24sum/CFRL/data/predicted_results/with_prompt/TH/3_step
+Processed air-density_land-wtd
+Processed air-density_pop-wtd
+Processed cloud-cover_land-wtd
+Processed cloud-cover_pop-wtd
+Warning: Metrics file not found for humidity_land-wtd
+Processed humidity_pop-wtd
+Warning: Metrics file not found for irradiance-surface_land-wtd
+Processed irradiance-surface_pop-wtd
+Warning: Metrics file not found for irradiance-toa_land-wtd
+Processed irradiance-toa_pop-wtd
+Warning: Metrics file not found for precipitation_land-wtd
+Processed precipitation_pop-wtd
+Warning: Metrics file not found for temperature_land-wtd
+Processed temperature_pop-wtd
+Warning: Metrics file not found for wind-speed_land-wtd
+Processed wind-speed_pop-wtd
+Summary CSV saved to: /home/leizy/24sum/CFRL/data/predicted_results/with_prompt/TH/3_step_summary.csv
+Total climate factors processed: 10
+
+Summary Statistics:
+==================================================
+Average MAE: 0.758697
+Average RMSE: 1.795592
+Average SMAPE: 2.479613%
+Average R²: 0.962780
+Average Missing Rate: 0.000398%
+usage: generate_summary.py [-h] --data_type {with_prompt,no_prompt}
+                           --step_type {1,3,5} --result_dir RESULT_DIR
+                           --output_file OUTPUT_FILE
+generate_summary.py: error: the following arguments are required: --data_type, --step_type
+Found 16 climate factors in /home/leizy/24sum/CFRL/data/predicted_results/with_prompt/TH/5_step
+Processed air-density_land-wtd
+Processed air-density_pop-wtd
+Processed cloud-cover_land-wtd
+Processed cloud-cover_pop-wtd
+Warning: Metrics file not found for humidity_land-wtd
+Processed humidity_pop-wtd
+Warning: Metrics file not found for irradiance-surface_land-wtd
+Processed irradiance-surface_pop-wtd
+Warning: Metrics file not found for irradiance-toa_land-wtd
+Processed irradiance-toa_pop-wtd
+Warning: Metrics file not found for precipitation_land-wtd
+Processed precipitation_pop-wtd
+Warning: Metrics file not found for temperature_land-wtd
+Processed temperature_pop-wtd
+Warning: Metrics file not found for wind-speed_land-wtd
+Processed wind-speed_pop-wtd
+Summary CSV saved to: /home/leizy/24sum/CFRL/data/predicted_results/with_prompt/TH/5_step_summary.csv
+Total climate factors processed: 10
+
+Summary Statistics:
+==================================================
+Average MAE: 1.102530
+Average RMSE: 2.720265
+Average SMAPE: 3.683373%
+Average R²: 0.933071
+Average Missing Rate: 0.001194%
+usage: generate_summary.py [-h] --data_type {with_prompt,no_prompt}
+                           --step_type {1,3,5} --result_dir RESULT_DIR
+                           --output_file OUTPUT_FILE
+generate_summary.py: error: the following arguments are required: --data_type, --step_type
+Found 16 climate factors in /home/leizy/24sum/CFRL/data/predicted_results/no_prompt/TH/1_step
+Processed air-density_land-wtd
+Processed air-density_pop-wtd
+Processed cloud-cover_land-wtd
+Processed cloud-cover_pop-wtd
+Warning: Metrics file not found for humidity_land-wtd
+Processed humidity_pop-wtd
+Warning: Metrics file not found for irradiance-surface_land-wtd
+Processed irradiance-surface_pop-wtd
+Warning: Metrics file not found for irradiance-toa_land-wtd
+Processed irradiance-toa_pop-wtd
+Warning: Metrics file not found for precipitation_land-wtd
+Processed precipitation_pop-wtd
+Warning: Metrics file not found for temperature_land-wtd
+Processed temperature_pop-wtd
+Warning: Metrics file not found for wind-speed_land-wtd
+Processed wind-speed_pop-wtd
+Summary CSV saved to: /home/leizy/24sum/CFRL/data/predicted_results/no_prompt/TH/1_step_summary.csv
+Total climate factors processed: 10
+
+Summary Statistics:
+==================================================
+Average MAE: 0.406488
+Average RMSE: 1.364888
+Average SMAPE: 1.257123%
+Average R²: 0.979804
+Average Missing Rate: 0.000265%
+usage: generate_summary.py [-h] --data_type {with_prompt,no_prompt}
+                           --step_type {1,3,5} --result_dir RESULT_DIR
+                           --output_file OUTPUT_FILE
+generate_summary.py: error: the following arguments are required: --data_type, --step_type
+Found 16 climate factors in /home/leizy/24sum/CFRL/data/predicted_results/no_prompt/TH/3_step
+Processed air-density_land-wtd
+Processed air-density_pop-wtd
+Processed cloud-cover_land-wtd
+Processed cloud-cover_pop-wtd
+Warning: Metrics file not found for humidity_land-wtd
+Processed humidity_pop-wtd
+Warning: Metrics file not found for irradiance-surface_land-wtd
+Processed irradiance-surface_pop-wtd
+Warning: Metrics file not found for irradiance-toa_land-wtd
+Processed irradiance-toa_pop-wtd
+Warning: Metrics file not found for precipitation_land-wtd
+Processed precipitation_pop-wtd
+Warning: Metrics file not found for temperature_land-wtd
+Processed temperature_pop-wtd
+Warning: Metrics file not found for wind-speed_land-wtd
+Processed wind-speed_pop-wtd
+Summary CSV saved to: /home/leizy/24sum/CFRL/data/predicted_results/no_prompt/TH/3_step_summary.csv
+Total climate factors processed: 10
+
+Summary Statistics:
+==================================================
+Average MAE: 0.784444
+Average RMSE: 1.697428
+Average SMAPE: 2.587513%
+Average R²: 0.967467
+Average Missing Rate: 0.000265%
+usage: generate_summary.py [-h] --data_type {with_prompt,no_prompt}
+                           --step_type {1,3,5} --result_dir RESULT_DIR
+                           --output_file OUTPUT_FILE
+generate_summary.py: error: the following arguments are required: --data_type, --step_type
+Found 16 climate factors in /home/leizy/24sum/CFRL/data/predicted_results/no_prompt/TH/5_step
+Processed air-density_land-wtd
+Processed air-density_pop-wtd
+Processed cloud-cover_land-wtd
+Processed cloud-cover_pop-wtd
+Warning: Metrics file not found for humidity_land-wtd
+Processed humidity_pop-wtd
+Warning: Metrics file not found for irradiance-surface_land-wtd
+Processed irradiance-surface_pop-wtd
+Warning: Metrics file not found for irradiance-toa_land-wtd
+Processed irradiance-toa_pop-wtd
+Processed precipitation_land-wtd
+Processed precipitation_pop-wtd
+Warning: Metrics file not found for temperature_land-wtd
+Processed temperature_pop-wtd
+Warning: Metrics file not found for wind-speed_land-wtd
+Processed wind-speed_pop-wtd
+Summary CSV saved to: /home/leizy/24sum/CFRL/data/predicted_results/no_prompt/TH/5_step_summary.csv
+Total climate factors processed: 11
+
+Summary Statistics:
+==================================================
+Average MAE: 1.030396
+Average RMSE: 2.346265
+Average SMAPE: 3.722413%
+Average R²: 0.923830
+Average Missing Rate: 0.003860%
+Calculating total training time for with_prompt...
+Processing T5_1_step...
+  T5_1_step: 250750s training, 9115s testing, 259865s total, 10 models
+Processing T5_3_step...
+  T5_3_step: 292670s training, 17036s testing, 309706s total, 10 models
+Processing T5_5_step...
+  T5_5_step: 332355s training, 24554s testing, 356909s total, 10 models
+Overall time summary saved to /home/leizy/24sum/CFRL/logs/with_prompt/overall_time_summary.txt
+
+Overall Summary for with_prompt:
+Total models: 30
+Total training time: 243h 16m 15s
+Total testing time: 14h 5m 5s
+Total time: 257h 21m 20s
+Average per model: 30882s
+Calculating total training time for no_prompt...
+Processing T5_1_step...
+  T5_1_step: 186264s training, 5299s testing, 191563s total, 10 models
+Processing T5_3_step...
+  T5_3_step: 190660s training, 12098s testing, 202758s total, 10 models
+Processing T5_5_step...
+  T5_5_step: 470700s training, 37085s testing, 507785s total, 11 models
+Overall time summary saved to /home/leizy/24sum/CFRL/logs/no_prompt/overall_time_summary.txt
+
+Overall Summary for no_prompt:
+Total models: 31
+Total training time: 235h 27m 4s
+Total testing time: 15h 8m 2s
+Total time: 250h 35m 6s
+Average per model: 29100s

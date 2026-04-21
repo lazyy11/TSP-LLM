@@ -1,0 +1,13 @@
+{
+  "column_name": "irradiance-surface_land-wtd",
+  "total_samples": 75365,
+  "valid_samples": 75365,
+  "missing_rate": 0.0,
+  "metrics": {
+    "rmse": 5.968867175509949,
+    "mae": 3.111414529290785,
+    "r2": 0.9995058390135443,
+    "mape": 650171.6233244545,
+    "smape": NaN
+  }
+}

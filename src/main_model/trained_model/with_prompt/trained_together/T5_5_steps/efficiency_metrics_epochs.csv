@@ -1,0 +1,4 @@
+epoch,global_step,epoch_runtime_seconds,epoch_runtime_hours,peak_memory_mb
+1,131916,44022.12,12.228366,8155.14
+2,263832,44030.49,12.230691,8136.5
+3,395748,44080.53,12.244591,8155.14

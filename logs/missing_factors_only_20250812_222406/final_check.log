@@ -1,0 +1,18 @@
+=== with_prompt 1_step 最终状态 ===
+完成: 0 | 仍缺失: 6
+仍缺失的因子: humidity_land-wtd irradiance-surface_land-wtd irradiance-toa_land-wtd precipitation_land-wtd temperature_land-wtd wind-speed_land-wtd
+=== with_prompt 3_step 最终状态 ===
+完成: 0 | 仍缺失: 6
+仍缺失的因子: humidity_land-wtd irradiance-surface_land-wtd irradiance-toa_land-wtd precipitation_land-wtd temperature_land-wtd wind-speed_land-wtd
+=== with_prompt 5_step 最终状态 ===
+完成: 0 | 仍缺失: 6
+仍缺失的因子: humidity_land-wtd irradiance-surface_land-wtd irradiance-toa_land-wtd precipitation_land-wtd temperature_land-wtd wind-speed_land-wtd
+=== no_prompt 1_step 最终状态 ===
+完成: 0 | 仍缺失: 6
+仍缺失的因子: humidity_land-wtd irradiance-surface_land-wtd irradiance-toa_land-wtd precipitation_land-wtd temperature_land-wtd wind-speed_land-wtd
+=== no_prompt 3_step 最终状态 ===
+完成: 0 | 仍缺失: 6
+仍缺失的因子: humidity_land-wtd irradiance-surface_land-wtd irradiance-toa_land-wtd precipitation_land-wtd temperature_land-wtd wind-speed_land-wtd
+=== no_prompt 5_step 最终状态 ===
+完成: 1 | 仍缺失: 5
+仍缺失的因子: humidity_land-wtd irradiance-surface_land-wtd irradiance-toa_land-wtd temperature_land-wtd wind-speed_land-wtd

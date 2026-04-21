@@ -1,0 +1,13 @@
+{
+  "column_name": "irradiance-toa_land-wtd",
+  "total_samples": 75365,
+  "valid_samples": 75365,
+  "missing_rate": 0.0,
+  "metrics": {
+    "rmse": 0.3758177360315098,
+    "mae": 0.036504584356133574,
+    "r2": 0.9999994002393889,
+    "mape": 13268.812548420085,
+    "smape": NaN
+  }
+}

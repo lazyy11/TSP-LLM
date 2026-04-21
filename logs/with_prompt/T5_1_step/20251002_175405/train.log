@@ -1,0 +1,18 @@
+2025/10/02 17:54:09 - WARNING - __main__ - Process rank: 0, device: cuda:0, n_gpu: 2, distributed training: True, 16-bits training: True
+2025/10/02 17:54:12 - WARNING - datasets.builder - Using custom data configuration default-1f9ec02d23f07625
+2025/10/02 17:54:12 - WARNING - datasets.builder - Reusing dataset json (/home/leizy/.cache/huggingface/datasets/json/default-1f9ec02d23f07625/0.0.0/ac0ca5f5289a6cf108e706efcf040422dbbfa8e658dee6a819f20d76bb84d26b)
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  9.47it/s]100%|██████████| 2/2 [00:00<00:00, 16.67it/s]
+/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/transformers/models/auto/configuration_auto.py:1002: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/transformers/models/auto/tokenization_auto.py:809: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py:471: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+2025/10/02 17:54:13 - WARNING - datasets.fingerprint - Parameter 'function'=<function main.<locals>.preprocess_function at 0x738834999ab0> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
+2025/10/02 17:54:13 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /home/leizy/.cache/huggingface/datasets/json/default-1f9ec02d23f07625/0.0.0/ac0ca5f5289a6cf108e706efcf040422dbbfa8e658dee6a819f20d76bb84d26b/cache-f945e4b665c1d4b4.arrow
+/home/leizy/24sum/CFRL/src/main_model/run/train.py:589: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Seq2SeqTrainer.__init__`. Use `processing_class` instead.
+  trainer = Seq2SeqTrainer(
+  0%|          | 0/98940 [00:00<?, ?it/s][WARNING|logging.py:328] 2025-10-02 17:54:17,238 >> `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`...
+/home/leizy/anaconda3/envs/pytorch/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+/home/leizy/24sum/CFRL/src/main_model/scripts/train_with_promopt/TH_1_step_train.sh: line 35: 4057473 Segmentation fault      (core dumped) python3 /home/leizy/24sum/CFRL/src/main_model/run/train.py --model_name_or_path /home/leizy/24fall/src/main_model/T5-base --do_train --seed=88 --save_total_limit=1 --train_file /home/leizy/24sum/CFRL/data/train_together_datasets/with_prompt/1_step/jsonl_data/train.json --validation_file /home/leizy/24sum/CFRL/data/train_together_datasets/with_prompt/1_step/jsonl_data/val.json --output_dir /home/leizy/24sum/CFRL/src/main_model/trained_model/with_prompt/trained_together/T5_1_step --per_device_train_batch_size=64 --fp16 --gradient_checkpointing --overwrite_output_dir --predict_with_generate

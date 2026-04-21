@@ -1,0 +1,13 @@
+{
+  "column_name": "air-density_land-wtd",
+  "total_samples": 77,
+  "valid_samples": 77,
+  "missing_rate": 0.0,
+  "metrics": {
+    "rmse": 0.0024732333324785894,
+    "mae": 0.0018831168831168863,
+    "r2": 0.9673628984359531,
+    "mape": 0.1644954866960717,
+    "smape": 0.16436356230362295
+  }
+}

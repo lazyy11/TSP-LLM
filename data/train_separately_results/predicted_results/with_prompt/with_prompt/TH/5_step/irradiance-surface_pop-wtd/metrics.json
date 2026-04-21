@@ -1,0 +1,13 @@
+{
+  "column_name": "irradiance-surface_pop-wtd",
+  "total_samples": 75361,
+  "valid_samples": 75361,
+  "missing_rate": 0.0,
+  "metrics": {
+    "rmse": 23.927352504307308,
+    "mae": 10.529267995382227,
+    "r2": 0.9918820241118895,
+    "mape": 300901001.2714944,
+    "smape": NaN
+  }
+}
