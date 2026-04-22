@@ -1,4 +1,4 @@
-# CFRL model for weather factor forecasting
+# TSP-LLM model for weather factor forecasting
 
 ## Introduction
 This repository contains the code for **A Prompt-based Learning Paradigm for Time Series Forecasting of Weather Factors**.
